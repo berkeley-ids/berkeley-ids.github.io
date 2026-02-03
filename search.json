@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
+    "href": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
+    "title": "Ever Since Allais and Ellsberg",
+    "section": "",
+    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n{fig-alt=“Photo of Shachar Kariv”}"
+  },
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
+    "href": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
+    "title": "TBA",
+    "section": "",
+    "text": "Abstract:\n\n{fig-alt=“Photo of Maryam Hoseinni”}"
+  },
+  {
+    "objectID": "seminarentries/index.html",
+    "href": "seminarentries/index.html",
+    "title": "All Seminars",
+    "section": "",
+    "text": "Ever Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
+    "href": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
+    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
+    "section": "",
+    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n{fig-alt=“Photo of Manxi Wu”}"
+  },
+  {
+    "objectID": "seminarseries.html",
+    "href": "seminarseries.html",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "",
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List Add to Calendar\nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
+  },
+  {
+    "objectID": "seminarseries.html#about",
+    "href": "seminarseries.html#about",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "",
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List Add to Calendar\nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
+  },
+  {
+    "objectID": "seminarseries.html#upcoming-events",
+    "href": "seminarseries.html#upcoming-events",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\n\n\n\n\n\nFeb 2, 2026\n\n\nShachar Kariv\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\n\n\n\n\n\nFeb 9, 2026\n\n\nManxi Wu\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nFeb 16, 2026\n\n\nMaryam Hoseinni\n\n\n\n\n\nNo matching items"
+  }
+]
