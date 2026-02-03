@@ -7,9 +7,9 @@ format:
 ---
 
 
-# Institute for Interdisciplinary Data Science (IDSI)
+# Interdisciplinary Data Science (IDS) at UC Berkeley
 
-## About IDSI
+## About IDS
 
 ## Contact
 
