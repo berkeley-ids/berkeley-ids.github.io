@@ -42,6 +42,6 @@ image: shachar.jpg
 categories: "Spring 2026"
 ---
 ```
-* The text for the Abstract should be added.
+* The text for the Abstract should be added in the appropriate space after the header.
 * No other text should be changed in the file `image.qmd`.
 
