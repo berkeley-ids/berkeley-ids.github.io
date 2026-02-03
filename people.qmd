@@ -1,0 +1,27 @@
+---
+title: "People Associated with IDS"
+format: html
+listing:
+  id: organizing
+  contents: 
+    - peopleentries/organizing.yaml
+  sort: "author"
+  type: grid
+---
+
+## IDS Organizing Committee
+
+:::{#organizing}
+:::
+
+## Other Related Groups
+
+The following are other related Berkeley organizations, in which many of our faculty participate
+
+* [Bakar Institute of Digital Materials for the Planet (BIDMaP)](https://bidmap.berkeley.edu/)
+* [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/)
+* [Berkeley Institute for Data Science (BIDS)](https://bids.berkeley.edu/)
+* [Center for Computational Biology (CCB)](https://ccb.berkeley.edu/)
+* [Center for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)](https://climb.berkeley.edu/)
+* [Computational Precision Health](https://computationalhealth.berkeley.edu/)
+* [Schmidt Center for Data Science and Environment (DSE)](https://dse.berkeley.edu/)

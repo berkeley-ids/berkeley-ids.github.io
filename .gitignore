@@ -2,3 +2,5 @@
 /_site/
 *.Rproj
 .Rproj.user
+
+**/*.quarto_ipynb
