@@ -9,7 +9,7 @@ format:
 
 # Interdisciplinary Data Science (IDS) at UC Berkeley
 
-We are a group of faculty interested in strengthening interdisciplinary data science at UC Berkeley. 
+We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. 
 Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact. 
 
 ## Our Mailing Lists
