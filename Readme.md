@@ -3,7 +3,7 @@
 
 The website is based on Quarto (https://quarto.org/docs/websites/) files. Quarto is based on markdown script, which it links together authomatically and compiles into html content. Quarto files end with `.qmd`; there are also important "yaml" files that have endings `.yml` or `.yaml` that govern characteristics of the website.
 
-To edit the files and test out how your changes will look locally, I recommend using RStudio. It will compile the files by pushing button `Render` and create a local copy of what the website looks like.
+To edit the files and test out how your changes will look locally, I recommend using RStudio. It will compile the files by pushing button `Render` and create a local copy of what the website looks like. However, this requires downloading R etc, so if you don't have a RStudio setup already, editing can be done in other editors. If you visit https://quarto.org/docs/get-started/, they will walk through how to work with quarto in your choice of editor (VSCode, Jupyter, or just a text editor).
 
 To actually compile the changes so they show up on line you will want to run `quarto publish gh-pages` in a terminal within your `berkeley-ids.github.io` directory. Information on how to compile it and push it to the proper place in github can be found here: https://quarto.org/docs/publishing/github-pages.html
 (we use method two `quarto publish gh-pages`). All the setup is already in place, so the main thing a new editor needs to do is to download quarto (https://quarto.org/docs/download/).
