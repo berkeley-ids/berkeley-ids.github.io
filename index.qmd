@@ -1,0 +1,16 @@
+---
+title-block: false
+engine: knitr
+format:
+  html:
+    css: styles.css
+---
+
+
+# Institute for Interdisciplinary Data Science (IDSI)
+
+## About IDSI
+
+## Contact
+
+

@@ -1,0 +1,18 @@
+---
+title: TBA
+author: 
+  - name: Maryam Hoseinni
+    affiliation: Department of City & Regional Planning
+date: 2026-02-16
+# image: 
+categories: "Spring 2026"
+---
+::::: columns
+::: {.column width="60%"}
+Abstract: 
+:::
+
+::: {.column width="40%"}
+![]({{< meta image >}}){fig-alt="Photo of {{< meta author >}}"}
+:::
+
