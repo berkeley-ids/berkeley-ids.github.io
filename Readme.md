@@ -20,9 +20,11 @@ The file for the seminar landing page is `seminarseries.qmd`. Accompanying text 
 
 Under the folder `seminarentries` there are folders per semester, corresponding with the content for the speakers for that semester.
 
-The yaml heading at the top of the file `seminarseries.qmd` identifies the folder that corresponds to the current semester (and therefore will go under our upcoming events).
+The yaml heading at the top of the file `seminarseries.qmd` identifies the folder that corresponds to the current semester (e.g. `seminarentries/2026Spring`); these will be the speakers that go under the upcoming events listing.
 
 The yaml heading at the top of the file `seminarentries/index.qmd` creates a list of all seminars and should pull from all the folders, regardless of year, in the `seminarentries` folder.
+
+A to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date *when you last ran `quarto-publish`*
 
 ## Adding seminar speakers
 
