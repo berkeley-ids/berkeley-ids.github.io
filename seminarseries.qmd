@@ -26,3 +26,11 @@ You can see all [past seminars here](seminarentries/index.qmd)
 ::: {#current}
 :::
 
+## Other Related Seminars of Interest
+
+The following seminar series held at UC Berkeley are likely to be of interest to the IDS community
+
+* [Berkeley AI Risk](https://berkeley-ai-risk.github.io/speaker-series.html): Talks by experts from academia, civil society, and industry on AI risks and mitigations
+* [BIDMaP](https://bidmap.berkeley.edu/seminars-events). See also their [emerging scholars](https://bidmap.berkeley.edu/emerging-scholars-seminars) series of research from post-docs and graduate students. 
+* [Computational Biology](https://ccb.berkeley.edu/events/seminars-and-symposia/ccb-seminars)
+* [Computational Precision Health](https://computationalhealth.berkeley.edu/events/)
