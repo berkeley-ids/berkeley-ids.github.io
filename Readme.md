@@ -10,7 +10,7 @@ To actually compile the changes so they show up on line you will want to run `qu
 
 In addition, you need to actually commit your changes to the quarto files and push them to github's `master` branch so they are available for everyone. Otherwise, other people might make edits and work with an older version of the website. This is separate from the publishing step (which pushes the *compiled* version to the `gh-pages` branch, which is where github pulls from for the website.)
 
-A note about branches: you shouldn't be working on the branch `gh-pages`, except through the quarto publish command. If you are manually working with git on the command line, make sure you are always in the `master` branch.
+A note about branches: you shouldn't be working on the branch `gh-pages`, except through the quarto publish command. Make sure you are always in the `master` branch when you are editing.
 
 # Seminars
 
