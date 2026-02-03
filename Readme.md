@@ -32,7 +32,7 @@ We'll assume you are updating the `2026Spring` semester seminar speakers' inform
 
 To add a new speaker, create a folder for them, and then create/add these two files. For the `index.qmd` file, copy from another existing folder, and just update the following components:
 
-* The header should look like this, with this information updated for the speaker. The image should be the name of the image file that has the picture of the speaker:
+* The header should look like this, with this information updated for the speaker:
 ```
 ---
 title: "Ever Since Allais and Ellsberg"
@@ -44,6 +44,7 @@ image: shachar.jpg
 categories: "Spring 2026"
 ---
 ```
+The image entry should be the name of the image file of the speaker that is in the same folder.
 * The text for the Abstract should be added in the appropriate space after the header.
 * No other text should be changed in the file `image.qmd`.
 
