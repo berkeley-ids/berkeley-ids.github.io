@@ -1,0 +1,9 @@
+---
+title: "All Seminars"
+format: html
+listing: 
+    contents: "*/index.qmd"
+    type: grid
+    categories: true
+---
+

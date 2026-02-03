@@ -1,0 +1,8 @@
+# options specified here will apply to all speakers layout in this folder
+
+# Enable banner style title blocks
+title-block-banner: true
+language:
+  title-block-author-single: "Speaker"
+  title-block-author-plural: "Speakers"
+  title-block-published: "Date"
