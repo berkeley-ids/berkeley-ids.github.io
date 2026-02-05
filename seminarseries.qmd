@@ -15,7 +15,7 @@ feed: true
 
 The IDSI seminar series for Spring 2026 is **Mondays from 11-12 AM in 775 A Tan Hall**
 
-[Join Google Groups Mailing List](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing){.btn .btn-outline-primary .btn role="button"} [Add to Calendar](addcalendar.qmd){.btn .btn-outline-primary .btn role="button"}
+ [Join Google Groups Mailing List](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing){.btn .btn-outline-primary .btn role="button"} <!--[Add to Calendar](addcalendar.qmd){.btn .btn-outline-primary .btn role="button"} -->
 
 If you have questions about the seminar or have difficulty signing up for the mailing list contact: 
 

@@ -32,10 +32,9 @@ body.page-index h1.title {
 
 /* Fallback: hide any h1.title -- 
 keeps it from doing title on any of the pages */
-/*h1.title {
+h1.title {
   display: none !important;
 }
-*/
 
 h1, .h1, h2, .h2 {
   font-weight: 400;
