@@ -21,18 +21,60 @@
     "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+  },
+  {
+    "objectID": "index.html#our-mailing-lists",
+    "href": "index.html#our-mailing-lists",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+  },
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
+    "href": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
+    "title": "Ever Since Allais and Ellsberg",
+    "section": "",
+    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n{fig-alt=“Photo of Shachar Kariv”}"
+  },
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
+    "href": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
+    "title": "TBA",
+    "section": "",
+    "text": "Abstract:\n\n{fig-alt=“Photo of Maryam Hoseinni”}"
+  },
+  {
+    "objectID": "seminarentries/index.html",
+    "href": "seminarentries/index.html",
+    "title": "All Seminars",
+    "section": "",
+    "text": "Ever Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
+    "href": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
+    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
+    "section": "",
+    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n{fig-alt=“Photo of Manxi Wu”}"
+  },
+  {
     "objectID": "seminarseries.html",
     "href": "seminarseries.html",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List Add to Calendar\nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
   },
   {
     "objectID": "seminarseries.html#about",
     "href": "seminarseries.html#about",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List Add to Calendar\nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
   },
   {
     "objectID": "seminarseries.html#upcoming-events",
@@ -49,45 +91,24 @@
     "text": "Other Related Seminars of Interest\nThe following seminar series held at UC Berkeley are likely to be of interest to the IDS community\n\nBerkeley AI Risk: Talks by experts from academia, civil society, and industry on AI risks and mitigations\nBIDMaP. See also their emerging scholars series of research from post-docs and graduate students.\nComputational Biology\nComputational Precision Health"
   },
   {
-    "objectID": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
-    "href": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
-    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
+    "objectID": "Readme.html",
+    "href": "Readme.html",
+    "title": "General",
     "section": "",
-    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n{fig-alt=“Photo of Manxi Wu”}"
+    "text": "The website is based on Quarto (https://quarto.org/docs/websites/) files. Quarto is based on markdown script, which it links together authomatically and compiles into html content. Quarto files end with .qmd; there are also important “yaml” files that have endings .yml or .yaml that govern characteristics of the website.\nTo edit the files and test out how your changes will look locally, I recommend using RStudio. It will compile the files by pushing button Render and create a local copy of what the website looks like. However, this requires downloading R etc, so if you don’t have a RStudio setup already, editing can be done in other editors. If you visit https://quarto.org/docs/get-started/, they will walk through how to work with quarto in your choice of editor (VSCode, Jupyter, or just a text editor).\nTo actually compile the changes so they show up on line you will want to run quarto publish gh-pages in a terminal within your berkeley-ids.github.io directory. Information on how to compile it and push it to the proper place in github can be found here: https://quarto.org/docs/publishing/github-pages.html (we use method two quarto publish gh-pages). All the setup is already in place, so the main thing a new editor needs to do is to download quarto (https://quarto.org/docs/download/). Some editors, like RStudio, provide capability to do the online publishing within the editor as well (see quarto documentation for details). (A future “to-do” is to make the quarto publishing step automatic everytime there are pushes to git repos, so this manual publishing step isn’t necessary)\nIn addition, you need to actually commit your changes to the quarto files and push them to github’s master branch so they are available for everyone. Otherwise, other people might make edits and work with an older version of the website. This is separate from the publishing step (which pushes the compiled version to the gh-pages branch, which is where github pulls from for the website.)\nA note about branches: you shouldn’t be working on the branch gh-pages, except through the quarto publish command. Make sure you are always in the master branch when you are editing."
   },
   {
-    "objectID": "seminarentries/index.html",
-    "href": "seminarentries/index.html",
-    "title": "All Seminars",
-    "section": "",
-    "text": "Ever Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nFeb 16, 2026\n\n\n\n\n\n\nNo matching items"
+    "objectID": "Readme.html#general-structure",
+    "href": "Readme.html#general-structure",
+    "title": "General",
+    "section": "General structure",
+    "text": "General structure\nUnder the folder seminarentries there are folders per semester, corresponding with the content for the speakers for that semester.\nThe yaml heading at the top of the file seminarseries.qmd identifies the folder that corresponds to the current semester (e.g. seminarentries/2026Spring); these will be the speakers that go under the upcoming events listing.\nThe yaml heading at the top of the file seminarentries/index.qmd creates a list of all seminars and should pull from all the folders, regardless of year, in the seminarentries folder.\nA to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date when you last ran quarto-publish"
   },
   {
-    "objectID": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
-    "href": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
-    "title": "TBA",
-    "section": "",
-    "text": "Abstract:\n\n{fig-alt=“Photo of Maryam Hoseinni”}"
-  },
-  {
-    "objectID": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-    "href": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-    "title": "Ever Since Allais and Ellsberg",
-    "section": "",
-    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n{fig-alt=“Photo of Shachar Kariv”}"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
-    "section": "",
-    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
-  },
-  {
-    "objectID": "index.html#our-mailing-lists",
-    "href": "index.html#our-mailing-lists",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
-    "section": "",
-    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+    "objectID": "Readme.html#adding-seminar-speakers",
+    "href": "Readme.html#adding-seminar-speakers",
+    "title": "General",
+    "section": "Adding seminar speakers",
+    "text": "Adding seminar speakers\nWe’ll assume you are updating the 2026Spring semester seminar speakers’ information. In this folder there is a folder for each speaker, which should contain one file called index.qmd and (optionally) one image file of the speaker.\nTo add a new speaker, create a folder for them, and then create/add these two files. For the index.qmd file, copy from another existing folder, and just update the following components:\n\nThe header should look like this, with this information updated for the speaker:\n\n---\ntitle: \"Ever Since Allais and Ellsberg\"\nauthor: \n  - name: Shachar Kariv\n    affiliation: Department of Economics\ndate: '2026-02-02'\nimage: shachar.jpg\ncategories: \"Spring 2026\"\n---\nThe image entry should be the name of the image file of the speaker that is in the same folder. * The text for the Abstract should be added in the appropriate space after the header. * No other text should be changed in the file image.qmd."
   }
 ]
