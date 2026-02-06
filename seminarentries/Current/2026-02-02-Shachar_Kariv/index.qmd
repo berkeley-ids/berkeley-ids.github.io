@@ -17,3 +17,4 @@ Abstract: The Allais critique of expected utility theory (EUT) has led to the de
 ![{{< meta author >}}]({{< meta image >}})
 :::
 
+:::::
