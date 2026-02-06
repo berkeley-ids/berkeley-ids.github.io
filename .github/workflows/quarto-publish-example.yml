@@ -1,5 +1,8 @@
 on:
-  workflow_dispatch
+  schedule:
+    # Run every Tuesday at 00:00 UTC
+    - cron: '0 0 * * 2'
+  workflow_dispatch:
   # push:
   #   branches:
   #     - master
