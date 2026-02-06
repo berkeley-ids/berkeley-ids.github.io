@@ -57,7 +57,7 @@ The image entry should be the name of the image file of the speaker that is in t
 
 Every time the website is compiled, there is an automatic filtering to move speakers from the `Current` folder to the `Past` folder, so no one should have to do this automatically. It is scheduled to recompile every **Tuesday at midnight** (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.
 
-Speakers are automatically moved from the `Current` folder into the `Past` folder *on compilation* so the `Past` folder could look empty or not up-to-date, but still render correctly. Seminar organizers are welcome to manually move the folders from past speakers into the `Past` directory just to clean things up, but it is not necessary.
+Speakers are automatically moved from the `Current` folder into the `Past` folder *on compilation* which means those changes won't become part of the github code base. That means the `Past` folder on github could look empty or not up-to-date, but still render correctly. Seminar organizers can manually move the folders from past speakers into the `Past` directory just to clean things up, for example at the beginning of the new semesters, but it is not necessary and needs to be done carefully so nothing is deleted.
 
 
 
