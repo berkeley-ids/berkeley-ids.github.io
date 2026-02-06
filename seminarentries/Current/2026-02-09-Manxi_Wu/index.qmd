@@ -1,0 +1,23 @@
+---
+title: "Information Design and Learning-Based Control for Large-Scale Mobility Systems."
+author: 
+  - name: Manxi Wu
+    affiliation: Civil and Environmental Engineering
+date: '2026-02-09'
+image: manxi-wu.jpg
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
+::::: columns
+::: {.column width="60%"}
+Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.
+
+First, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple "monotone partitional" mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.
+
+Finally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.
+:::
+
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+

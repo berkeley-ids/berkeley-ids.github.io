@@ -1,6 +1,7 @@
 project:
   type: website
-
+  pre-render: seminarentries/filter-future-speakers.R
+  
 website:
   title: "Institute for Interdisciplinary Data Science"
   sidebar: false
