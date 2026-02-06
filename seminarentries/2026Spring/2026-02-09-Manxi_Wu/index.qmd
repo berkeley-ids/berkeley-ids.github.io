@@ -6,6 +6,7 @@ author:
 date: '2026-02-09'
 image: manxi-wu.jpg
 categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
 ---
 ::::: columns
 ::: {.column width="60%"}
@@ -17,6 +18,6 @@ Finally, we validate both frameworks using real-world data from the New York Cit
 :::
 
 ::: {.column width="40%"}
-![]({{< meta image >}}){fig-alt="Photo of {{< meta author >}}"}
+![{{< meta author >}}]({{< meta image >}})
 :::
 

@@ -1,0 +1,4 @@
+/* Make the speaker name not be a caption below their picture */
+figcaption {
+  display: none;
+}
