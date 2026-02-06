@@ -27,9 +27,7 @@ Under the folder `seminarentries` there two folders, `Current` and `Past`.
 
 The yaml heading at the top of the file `seminarseries.qmd` pulls and lists speakers from `Current`
 
-The yaml heading at the top of the file `seminarentries/Past/index.qmd` creates a list of all seminars in the Past folder
-
-Every time the website is compiled, there is an automatic filtering to move speakers from the `Current` folder to the `Past` folder, so no one should have to do this automatically. It is scheduled to recompile every Tuesday at midnight (in addition to any manual compilations someone might trigger, described above).
+The yaml heading at the top of the file `seminarentries/Past/index.qmd` creates a list of all seminars in the Past folder. 
 
 ## Adding seminar speakers
 
@@ -54,4 +52,12 @@ categories: "Spring 2026"
 The image entry should be the name of the image file of the speaker that is in the same folder.
 * The text for the Abstract should be added in the appropriate space after the header.
 * No other text should be changed in the file `image.qmd`.
+
+## About the folder of Past Speakers
+
+Every time the website is compiled, there is an automatic filtering to move speakers from the `Current` folder to the `Past` folder, so no one should have to do this automatically. It is scheduled to recompile every **Tuesday at midnight** (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.
+
+Speakers are automatically moved from the `Current` folder into the `Past` folder *on compilation* so the `Past` folder could look empty or not up-to-date, but still render correctly. Seminar organizers are welcome to manually move the folders from past speakers into the `Past` directory just to clean things up, but it is not necessary.
+
+
 
