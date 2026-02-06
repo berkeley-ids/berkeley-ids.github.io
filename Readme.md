@@ -29,7 +29,7 @@ The yaml heading at the top of the file `seminarseries.qmd` identifies the folde
 
 The yaml heading at the top of the file `seminarentries/index.qmd` creates a list of all seminars and should pull from all the folders, regardless of year, in the `seminarentries` folder.
 
-A to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date *when you last ran `quarto-publish`*
+A to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date *when you last ran `quarto-publish`* so we would need to also create a GitAction that would recompile the 
 
 ## Adding seminar speakers
 
