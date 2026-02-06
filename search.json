@@ -21,25 +21,11 @@
     "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
   },
   {
-    "objectID": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-    "href": "seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-    "title": "Ever Since Allais and Ellsberg",
+    "objectID": "seminarentries/Current/2026-02-09-Manxi_Wu/index.html",
+    "href": "seminarentries/Current/2026-02-09-Manxi_Wu/index.html",
+    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
     "section": "",
-    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n\n\n\nShachar Kariv"
-  },
-  {
-    "objectID": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
-    "href": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
-    "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
-    "section": "",
-    "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
-  },
-  {
-    "objectID": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-    "href": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-    "title": "Ever Since Allais and Ellsberg",
-    "section": "",
-    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n\n\n\nShachar Kariv"
+    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n\n\n\nManxi Wu"
   },
   {
     "objectID": "Readme.html",
@@ -53,14 +39,21 @@
     "href": "Readme.html#general-structure",
     "title": "General",
     "section": "General structure",
-    "text": "General structure\nUnder the folder seminarentries there are folders per semester, corresponding with the content for the speakers for that semester.\nThe yaml heading at the top of the file seminarseries.qmd identifies the folder that corresponds to the current semester (e.g. seminarentries/2026Spring); these will be the speakers that go under the upcoming events listing.\nThe yaml heading at the top of the file seminarentries/index.qmd creates a list of all seminars and should pull from all the folders, regardless of year, in the seminarentries folder.\nA to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date when you last ran quarto-publish so we would need to also create a GitAction that would recompile the"
+    "text": "General structure\nUnder the folder seminarentries there two folders, Current and Past.\nThe yaml heading at the top of the file seminarseries.qmd pulls and lists speakers from Current\nThe yaml heading at the top of the file seminarentries/Past/index.qmd creates a list of all seminars in the Past folder."
   },
   {
     "objectID": "Readme.html#adding-seminar-speakers",
     "href": "Readme.html#adding-seminar-speakers",
     "title": "General",
     "section": "Adding seminar speakers",
-    "text": "Adding seminar speakers\nWe’ll assume you are updating the 2026Spring semester seminar speakers’ information. In this folder there is a folder for each speaker, which should contain one file called index.qmd and (optionally) one image file of the speaker.\nTo add a new speaker, create a folder for them, and then create/add these two files. If you are working directly on GitHub, to create a new folder click on a button to create a new file and type folder1/file1 to create a file with name file1 within folder folder1. So for example, you would type the name of your new file as 2026-John_Doe/index.qmd.\nFor the index.qmd file, copy the text from another existing folder, and just update the following components:\n\nThe header should look like this, with this information updated for the speaker:\n\n---\ntitle: \"Ever Since Allais and Ellsberg\"\nauthor: \n  - name: Shachar Kariv\n    affiliation: Department of Economics\ndate: '2026-02-02'\nimage: shachar.jpg\ncategories: \"Spring 2026\"\n---\nThe image entry should be the name of the image file of the speaker that is in the same folder. * The text for the Abstract should be added in the appropriate space after the header. * No other text should be changed in the file image.qmd."
+    "text": "Adding seminar speakers\nYou should only be adding speakers to the Current folder. In this folder, there is a folder for each speaker, which should contain one file called index.qmd and (optionally) one image file of the speaker.\nTo add a new speaker, create a folder for them, and then create/add these two files. If you are working directly on GitHub, to create a new folder click on a button to create a new file and type folder1/file1 to create a file with name file1 within folder folder1. So for example, you would type the name of your new file as 2026-John_Doe/index.qmd.\nFor the index.qmd file, copy the text from another existing folder, and just update the following components:\n\nThe header should look like this, with this information updated for the speaker:\n\n---\ntitle: \"Ever Since Allais and Ellsberg\"\nauthor: \n  - name: Shachar Kariv\n    affiliation: Department of Economics\ndate: '2026-02-02'\nimage: shachar.jpg\ncategories: \"Spring 2026\"\n---\nThe image entry should be the name of the image file of the speaker that is in the same folder. * The text for the Abstract should be added in the appropriate space after the header. * No other text should be changed in the file image.qmd."
+  },
+  {
+    "objectID": "Readme.html#about-the-folder-of-past-speakers",
+    "href": "Readme.html#about-the-folder-of-past-speakers",
+    "title": "General",
+    "section": "About the folder of Past Speakers",
+    "text": "About the folder of Past Speakers\nEvery time the website is compiled, there is an automatic filtering to move speakers from the Current folder to the Past folder, so no one should have to do this automatically. It is scheduled to recompile every Tuesday at midnight (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.\nSpeakers are automatically moved from the Current folder into the Past folder on compilation so the Past folder could look empty or not up-to-date, but still render correctly. Seminar organizers are welcome to manually move the folders from past speakers into the Past directory just to clean things up, but it is not necessary."
   },
   {
     "objectID": "index.html",
@@ -109,25 +102,11 @@
     "href": "seminarentries/Past/index.html",
     "title": "Past Seminars",
     "section": "",
-    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "seminarentries/Current/2026-02-09-Manxi_Wu/index.html",
-    "href": "seminarentries/Current/2026-02-09-Manxi_Wu/index.html",
-    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
-    "section": "",
-    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n\n\n\nManxi Wu"
-  },
-  {
-    "objectID": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
-    "href": "seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
-    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
-    "section": "",
-    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n\n\n\nManxi Wu"
-  },
-  {
-    "objectID": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
-    "href": "seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
+    "objectID": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
+    "href": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
     "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
     "section": "",
     "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
