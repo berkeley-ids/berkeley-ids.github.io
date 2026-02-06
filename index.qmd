@@ -1,6 +1,5 @@
 ---
 title-block: false
-engine: knitr
 format:
   html:
     css: styles.css
