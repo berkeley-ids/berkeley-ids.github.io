@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Maryam Hoseinni">
+<meta name="dcterms.date" content="2026-02-16">
 
-<title>Interdisciplinary Data Science Seminar Series – Institute for Interdisciplinary Data Science</title>
+<title>Cities, Unmapped: Bridging Informational Gap in Urban Analytics – Institute for Interdisciplinary Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-805874b2b405a48d427823a150e08e3b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-805874b2b405a48d427823a150e08e3b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,74 +73,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current'] = new List('listing-current', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://siteimproveanalytics.com/js/siteanalyze_6294756.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../seminarentries/speakerpages.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -147,15 +93,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./seminarseries.html" aria-current="page"> 
+    <a class="nav-link" href="../../../seminarseries.html"> 
 <span class="menu-text">Seminar Series</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
 </ul>
@@ -166,120 +112,69 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Cities, Unmapped: Bridging Informational Gap in Urban Analytics</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Spring 2026</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author column-page">
+    <div class="quarto-title-meta-heading">Speaker</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Maryam Hoseinni </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Department of City &amp; Regional Planning
+            </p>
+        </div>
+    </div>
+
+  <div class="quarto-title-meta column-page">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 16, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link" data-scroll-target="#upcoming-events">Upcoming Events</a></li>
-  <li><a href="#other-related-seminars-of-interest" id="toc-other-related-seminars-of-interest" class="nav-link" data-scroll-target="#other-related-seminars-of-interest">Other Related Seminars of Interest</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Interdisciplinary Data Science Seminar Series</h1>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>The IDSI seminar series for Spring 2026 is <strong>Mondays from 11-12 AM in 775 A Tan Hall</strong></p>
-<p><a href="https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing" class="btn btn-outline-primary" role="button">Join Google Groups Mailing List</a> <!--[Add to Calendar](addcalendar.qmd){.btn .btn-outline-primary .btn role="button"} --></p>
-<p>If you have questions about the seminar or have difficulty signing up for the mailing list contact:</p>
-<p>You can see all <a href="./seminarentries/Past/index.html">past seminars here</a></p>
-</section>
-<section id="upcoming-events" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming Events</h2>
-<div id="listing-current" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U3ByaW5nJTIwMjAyNg==" data-listing-date-sort="1770595200000" data-listing-file-modified-sort="1770405485822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
-<div class="thumbnail"><a href="./seminarentries/Current/2026-02-09-Manxi_Wu/index.html" class="no-external">
-
-<img loading="lazy" src="./seminarentries/Current/2026-02-09-Manxi_Wu/manxi-wu.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./seminarentries/Current/2026-02-09-Manxi_Wu/index.html" class="no-external">Information Design and Learning-Based Control for Large-Scale Mobility Systems.</a>
-</h3>
-<div class="delink listing-description"><a href="./seminarentries/Current/2026-02-09-Manxi_Wu/index.html" class="no-external">
-Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./seminarentries/Current/2026-02-09-Manxi_Wu/index.html" class="no-external">
-<div class="listing-date">
-Feb 9, 2026
-</div>
-<div class="listing-author">
-Manxi Wu
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="U3ByaW5nJTIwMjAyNg==" data-listing-date-sort="1771200000000" data-listing-file-modified-sort="1770405485822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<div class="thumbnail"><a href="./seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html" class="no-external">
-
-<img loading="lazy" src="./seminarentries/Current/2026-02-16-Maryam_Hoseinni/maryam.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html" class="no-external">Cities, Unmapped: Bridging Informational Gap in Urban Analytics</a>
-</h3>
-<div class="delink listing-description"><a href="./seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html" class="no-external">
-Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html" class="no-external">
-<div class="listing-date">
-Feb 16, 2026
-</div>
-<div class="listing-author">
-Maryam Hoseinni
-</div>
-</a>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.</p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="maryam.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Maryam Hoseinni"><img src="maryam.jpg" class="img-fluid figure-img" alt="Maryam Hoseinni"></a></p>
+<figcaption>Maryam Hoseinni</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="other-related-seminars-of-interest" class="level2">
-<h2 class="anchored" data-anchor-id="other-related-seminars-of-interest">Other Related Seminars of Interest</h2>
-<p>The following seminar series held at UC Berkeley are likely to be of interest to the IDS community</p>
-<ul>
-<li><a href="https://berkeley-ai-risk.github.io/speaker-series.html">Berkeley AI Risk</a>: Talks by experts from academia, civil society, and industry on AI risks and mitigations</li>
-<li><a href="https://bidmap.berkeley.edu/seminars-events">BIDMaP</a>. See also their <a href="https://bidmap.berkeley.edu/emerging-scholars-seminars">emerging scholars</a> series of research from post-docs and graduate students.</li>
-<li><a href="https://ccb.berkeley.edu/events/seminars-and-symposia/ccb-seminars">Computational Biology</a></li>
-<li><a href="https://computationalhealth.berkeley.edu/events/">Computational Precision Health</a></li>
-</ul>
-
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -683,6 +578,38 @@ Maryam Hoseinni
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

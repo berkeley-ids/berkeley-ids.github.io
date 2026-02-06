@@ -4,19 +4,16 @@
     "items": []
   },
   {
-    "listing": "/seminarentries/index.html",
+    "listing": "/seminarseries.html",
     "items": [
-      "/seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html",
-      "/seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-      "/seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html"
+      "/seminarentries/Current/2026-02-09-Manxi_Wu/index.html",
+      "/seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html"
     ]
   },
   {
-    "listing": "/seminarseries.html",
+    "listing": "/seminarentries/Past/index.html",
     "items": [
-      "/seminarentries/2026Spring/2026-02-02-Shachar_Kariv/index.html",
-      "/seminarentries/2026Spring/2026-02-09-Manxi_Wu/index.html",
-      "/seminarentries/2026Spring/2026-02-16-Maryam_Hoseinni/index.html"
+      "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html"
     ]
   }
 ]
