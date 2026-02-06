@@ -35,7 +35,9 @@ A to-do would be for the upcoming events to only show events after the current d
 
 We'll assume you are updating the `2026Spring` semester seminar speakers' information. In this folder there is a folder for each speaker, which should contain one file called `index.qmd` and (optionally) one image file of the speaker. 
 
-To add a new speaker, create a folder for them, and then create/add these two files. For the `index.qmd` file, copy from another existing folder, and just update the following components:
+To add a new speaker, create a folder for them, and then create/add these two files. If you are working directly on GitHub, to create a new folder click on a button to create a new file and type `folder1/file1` to create a file with name `file1` within folder `folder1`. So for example, you would type the name of your new file as `date-speaker-name/index.qmd`.
+
+For the `index.qmd` file, copy the text from another existing folder, and just update the following components:
 
 * The header should look like this, with this information updated for the speaker:
 ```
