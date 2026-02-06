@@ -1,12 +1,17 @@
 
 # General
 
+This is the github repos that contains the backend content for the website (https://berkeley-ids.github.io/seminarseries.html). 
+
 The website is based on Quarto (https://quarto.org/docs/websites/) files. Quarto is based on markdown script, which it links together authomatically and compiles into html content. Quarto files end with `.qmd`; there are also important "yaml" files that have endings `.yml` or `.yaml` that govern characteristics of the website.
 
 To edit the files and test out how your changes will look locally, I recommend using RStudio. It will compile the files by pushing button `Render` and create a local copy of what the website looks like. However, this requires downloading R etc, so if you don't have a RStudio setup already, editing can be done in other editors. If you visit https://quarto.org/docs/get-started/, they will walk through how to work with quarto in your choice of editor (VSCode, Jupyter, or just a text editor).
 
-To actually compile the changes so they show up on line you will want to run `quarto publish gh-pages` in a terminal within your `berkeley-ids.github.io` directory. Information on how to compile it and push it to the proper place in github can be found here: https://quarto.org/docs/publishing/github-pages.html
-(we use method two `quarto publish gh-pages`). All the setup is already in place, so the main thing a new editor needs to do is to download quarto (https://quarto.org/docs/download/). Some editors, like RStudio, provide capability to do the online publishing within the editor as well (see quarto documentation for details). (A future "to-do" is to make the quarto publishing step automatic everytime there are pushes to git repos, so this manual publishing step isn't necessary)
+To actually compile the changes so they show up on the website you can do this in two ways:
+
+1. **On your local machine:** run `quarto publish gh-pages` in a terminal within your `berkeley-ids.github.io` directory. Information on how to compile it and push it to the proper place in github can be found here: https://quarto.org/docs/publishing/github-pages.html
+(we use method two `quarto publish gh-pages`). All the setup is already in place, so the main thing a new editor needs to do is to download quarto (https://quarto.org/docs/download/). Some editors, like RStudio, provide capability to do the online publishing within the editor as well (see quarto documentation for details).
+2. **On github website:** Go to the "Actions" tab. On the left-hand side you should see a workflow action called "Manually Render and Publish". Click on this. In the main part of the screen, you should see `This workflow has a workflow_dispatch event trigger.` and to the far right of that a drop down menu that says `Run workflow`. Click on `Run workflow`, make sure the `master` branch is chosen, and click on `Run workflow`. At this time we only have it set up to be manually compiled, but a "to-do" item would be to create a workflow that runs automatically every week (for example to update the "Upcoming events" to show only upcoming events)
 
 In addition, you need to actually commit your changes to the quarto files and push them to github's `master` branch so they are available for everyone. Otherwise, other people might make edits and work with an older version of the website. This is separate from the publishing step (which pushes the *compiled* version to the `gh-pages` branch, which is where github pulls from for the website.)
 
