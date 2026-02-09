@@ -18,5 +18,5 @@ We have the following Google Group mailing lists for communicating events and ac
 * [Students and Post-docs](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_students) -- students and post-docs are welcome to add themselves to this google group to learn about student events
 * [IDS Faculty](https://groups.google.com/a/lists.berkeley.edu/d/forum/idsfaculty) -- faculty who are members of the IDS faculty group
 * [Affiliated Faculty](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_affiliates) -- related UC Berkeley faculty who wish to contribute to building the IDS community
-* [General mailing list](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing) -- general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)
+* [General mailing list](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing) -- general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group linked here to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!). You can also search for `ids_mailing` in UC Berkeley's google groups, and add yourself. 
 

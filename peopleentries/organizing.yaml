@@ -7,3 +7,27 @@
 - author: Raja Sengupta
   path: "https://ce.berkeley.edu/people/faculty/sengupta"
   image: "peopleentries/peoplephotos/RajaSengupta.jpg"
+- author: Christian Borgs
+  path: "https://www2.eecs.berkeley.edu/Faculty/Homepages/borgs.html"
+  image: "peopleentries/peoplephotos/borgs.jpg"
+- author: Carl Boettiger
+  path: "https://www.carlboettiger.info/"
+  image: "peopleentries/peoplephotos/carl.png"
+- author: Federico Echenique
+  path: "https://eml.berkeley.edu/~fechenique/index.html"
+  image: "peopleentries/peoplephotos/Echenique-Oct2023_v2-small.jpeg"
+- author: Henry Brady
+  path: "https://polisci.berkeley.edu/people/person/hbradyberkeleyedu"
+  image: "peopleentries/peoplephotos/henry_brady.jpg"
+- author: Joshua Bloom
+  path: "https://astro.berkeley.edu/people/josh-bloom/"
+  image: "peopleentries/peoplephotos/joshua_bloom.jpg"
+- author: Perry de Valpine
+  path: "https://devalpinegroup.org/"
+  image: "peopleentries/peoplephotos/perry.jpg"
+- author: Susan Graham
+  path: "https://www2.eecs.berkeley.edu/Faculty/Homepages/graham-s.html"
+  image: "peopleentries/peoplephotos/graham-s-small.jpeg"
+- author: Zachary Pardos
+  path: "https://bse.berkeley.edu/zachary-pardos"
+  image: "peopleentries/peoplephotos/pardos_zachary.jpg"
