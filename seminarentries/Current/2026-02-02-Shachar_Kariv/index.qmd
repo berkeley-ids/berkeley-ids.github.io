@@ -6,6 +6,7 @@ author:
 date: '2026-02-02'
 image: shachar.jpg
 categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
 ---
 ::::: columns
 ::: {.column width="60%"}
@@ -13,6 +14,7 @@ Abstract: The Allais critique of expected utility theory (EUT) has led to the de
 :::
 
 ::: {.column width="40%"}
-![]({{< meta image >}}){fig-alt="Photo of {{< meta author >}}"}
+![{{< meta author >}}]({{< meta image >}})
 :::
 
+:::::

@@ -23,19 +23,17 @@ The file for the seminar landing page is `seminarseries.qmd`. Accompanying text 
 
 ## General structure
 
-Under the folder `seminarentries` there are folders per semester, corresponding with the content for the speakers for that semester.
+Under the folder `seminarentries` there two folders, `Current` and `Past`.
 
-The yaml heading at the top of the file `seminarseries.qmd` identifies the folder that corresponds to the current semester (e.g. `seminarentries/2026Spring`); these will be the speakers that go under the upcoming events listing.
+The yaml heading at the top of the file `seminarseries.qmd` pulls and lists speakers from `Current`
 
-The yaml heading at the top of the file `seminarentries/index.qmd` creates a list of all seminars and should pull from all the folders, regardless of year, in the `seminarentries` folder.
-
-A to-do would be for the upcoming events to only show events after the current date. I found ways that will do that filtering automatically, but it is only the current date *when you last ran `quarto-publish`* so we would need to also create a GitAction that would recompile the 
+The yaml heading at the top of the file `seminarentries/Past/index.qmd` creates a list of all seminars in the Past folder. 
 
 ## Adding seminar speakers
 
-We'll assume you are updating the `2026Spring` semester seminar speakers' information. In this folder there is a folder for each speaker, which should contain one file called `index.qmd` and (optionally) one image file of the speaker. 
+You should only be adding speakers to the `Current` folder. In this folder, there is a folder for each speaker, which should contain one file called `index.qmd` and (optionally) one image file of the speaker. 
 
-To add a new speaker, create a folder for them, and then create/add these two files. If you are working directly on GitHub, to create a new folder click on a button to create a new file and type `folder1/file1` to create a file with name `file1` within folder `folder1`. So for example, you would type the name of your new file as `date-speaker-name/index.qmd`.
+To add a new speaker, create a folder for them, and then create/add these two files. If you are working directly on GitHub, to create a new folder click on a button to create a new file and type `folder1/file1` to create a file with name `file1` within folder `folder1`. So for example, you would type the name of your new file as `2026-John_Doe/index.qmd`.
 
 For the `index.qmd` file, copy the text from another existing folder, and just update the following components:
 
@@ -54,4 +52,12 @@ categories: "Spring 2026"
 The image entry should be the name of the image file of the speaker that is in the same folder.
 * The text for the Abstract should be added in the appropriate space after the header.
 * No other text should be changed in the file `image.qmd`.
+
+## About the folder of Past Speakers
+
+Every time the website is compiled, there is an automatic filtering to move speakers from the `Current` folder to the `Past` folder, so no one should have to do this automatically. It is scheduled to recompile every **Tuesday at midnight** (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.
+
+Speakers are automatically moved from the `Current` folder into the `Past` folder *on compilation* which means those changes won't become part of the github code base. That means the `Past` folder on github could look empty or not up-to-date, but still render correctly. Seminar organizers can manually move the folders from past speakers into the `Past` directory just to clean things up, for example at the beginning of the new semesters, but it is not necessary and needs to be done carefully so nothing is deleted.
+
+
 

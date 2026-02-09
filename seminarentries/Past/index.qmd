@@ -1,0 +1,13 @@
+---
+title: "Past Seminars"
+format: html
+listing: 
+    contents: "*/index.qmd"
+    type: grid
+    categories: true
+    sort: "date asc"
+    sort-ui: false
+    filter-ui: false
+
+---
+# Past Seminars

@@ -3,7 +3,7 @@ title: "Interdisciplinary Data Science Seminar Series"
 format: html
 listing:
     id: current
-    contents: seminarentries/2026Spring
+    contents: seminarentries/Current
     type: default
     sort: "date asc"
     sort-ui: false
@@ -19,7 +19,7 @@ The IDSI seminar series for Spring 2026 is **Mondays from 11-12 AM in 775 A Tan 
 
 If you have questions about the seminar or have difficulty signing up for the mailing list contact: 
 
-You can see all [past seminars here](seminarentries/index.qmd)
+You can see all [past seminars here](seminarentries/Past/index.qmd)
 
 ## Upcoming Events
 
