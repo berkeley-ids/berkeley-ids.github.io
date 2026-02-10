@@ -1,7 +1,7 @@
 
 # General
 
-This is the github repos that contains the backend content for the website (https://berkeley-ids.github.io/seminarseries.html). 
+This is the github repos that contains the backend content for the website (https://berkeley-ids.github.io). 
 
 The website is based on Quarto (https://quarto.org/docs/websites/) files. Quarto is based on markdown script, which it links together authomatically and compiles into html content. Quarto files end with `.qmd`; there are also important "yaml" files that have endings `.yml` or `.yaml` that govern characteristics of the website.
 
