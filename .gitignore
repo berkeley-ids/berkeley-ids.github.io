@@ -2,5 +2,5 @@
 /_site/
 *.Rproj
 .Rproj.user
-
+.Rhistory
 **/*.quarto_ipynb
