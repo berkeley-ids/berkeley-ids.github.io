@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://berkeley-ids.github.io/people.html</loc>
-    <lastmod>2026-02-10T21:02:54.731Z</lastmod>
-  </url>
-  <url>
     <loc>https://berkeley-ids.github.io/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html</loc>
-    <lastmod>2026-02-10T21:03:31.435Z</lastmod>
+    <lastmod>2026-02-15T00:37:13.435Z</lastmod>
   </url>
   <url>
     <loc>https://berkeley-ids.github.io/seminarentries/Past/index.html</loc>
-    <lastmod>2026-02-10T21:02:54.737Z</lastmod>
+    <lastmod>2026-02-15T00:36:32.654Z</lastmod>
   </url>
   <url>
-    <loc>https://berkeley-ids.github.io/seminarseries.html</loc>
-    <lastmod>2026-02-10T21:02:54.738Z</lastmod>
-  </url>
-  <url>
-    <loc>https://berkeley-ids.github.io/index.html</loc>
-    <lastmod>2026-02-10T21:02:54.731Z</lastmod>
+    <loc>https://berkeley-ids.github.io/people.html</loc>
+    <lastmod>2026-02-15T00:36:32.648Z</lastmod>
   </url>
   <url>
     <loc>https://berkeley-ids.github.io/Readme.html</loc>
-    <lastmod>2026-02-10T21:02:54.731Z</lastmod>
+    <lastmod>2026-02-15T00:36:32.648Z</lastmod>
   </url>
   <url>
-    <loc>https://berkeley-ids.github.io/seminarentries/Past/2026-02-09-Manxi_Wu/index.html</loc>
-    <lastmod>2026-02-10T21:03:31.436Z</lastmod>
+    <loc>https://berkeley-ids.github.io/index.html</loc>
+    <lastmod>2026-02-15T00:36:32.648Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkeley-ids.github.io/seminarseries.html</loc>
+    <lastmod>2026-02-15T00:36:32.655Z</lastmod>
   </url>
   <url>
     <loc>https://berkeley-ids.github.io/seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html</loc>
-    <lastmod>2026-02-10T21:02:54.734Z</lastmod>
+    <lastmod>2026-02-15T00:36:32.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkeley-ids.github.io/seminarentries/Past/2026-02-09-Manxi_Wu/index.html</loc>
+    <lastmod>2026-02-15T00:37:13.436Z</lastmod>
   </url>
 </urlset>
