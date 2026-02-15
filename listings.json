@@ -7,13 +7,14 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/seminarseries.html",
     "items": [
-      "/seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html"
+      "/seminarentries/Current/2026-02-23-Elizabeth_Purdom/index.html",
+      "/seminarentries/Current/2026-03-02-Maryam_Hoseinni/index.html"
     ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
   }
 ]

@@ -14,25 +14,53 @@
     "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People Associated with IDS",
+    "objectID": "seminarentries/Current/2026-03-02-Maryam_Hoseinni/index.html",
+    "href": "seminarentries/Current/2026-03-02-Maryam_Hoseinni/index.html",
+    "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
     "section": "",
-    "text": "Elizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\nNo matching items"
+    "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
   },
   {
-    "objectID": "people.html#ids-organizing-committee",
-    "href": "people.html#ids-organizing-committee",
-    "title": "People Associated with IDS",
+    "objectID": "seminarseries.html",
+    "href": "seminarseries.html",
+    "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "Elizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\nNo matching items"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
   },
   {
-    "objectID": "people.html#other-related-groups",
-    "href": "people.html#other-related-groups",
-    "title": "People Associated with IDS",
-    "section": "Other Related Groups",
-    "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
+    "objectID": "seminarseries.html#about",
+    "href": "seminarseries.html#about",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "",
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
+  },
+  {
+    "objectID": "seminarseries.html#upcoming-events",
+    "href": "seminarseries.html#upcoming-events",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\n\n\n\n\n\nFeb 23, 2026\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nMaryam Hoseinni\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "seminarseries.html#other-related-seminars-of-interest",
+    "href": "seminarseries.html#other-related-seminars-of-interest",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "Other Related Seminars of Interest",
+    "text": "Other Related Seminars of Interest\nThe following seminar series held at UC Berkeley are likely to be of interest to the IDS community\n\nBerkeley AI Risk: Talks by experts from academia, civil society, and industry on AI risks and mitigations\nBIDMaP. See also their emerging scholars series of research from post-docs and graduate students.\nComputational Biology\nComputational Precision Health"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+  },
+  {
+    "objectID": "index.html#our-mailing-lists",
+    "href": "index.html#our-mailing-lists",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
   },
   {
     "objectID": "Readme.html",
@@ -63,53 +91,32 @@
     "text": "About the folder of Past Speakers\nEvery time the website is compiled, there is an automatic filtering to move speakers from the Current folder to the Past folder, so no one should have to do this automatically. It is scheduled to recompile every Tuesday at midnight (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.\nSpeakers are automatically moved from the Current folder into the Past folder on compilation which means those changes won’t become part of the github code base. That means the Past folder on github could look empty or not up-to-date, but still render correctly. Seminar organizers can manually move the folders from past speakers into the Past directory just to clean things up, for example at the beginning of the new semesters, but it is not necessary and needs to be done carefully so nothing is deleted."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People Associated with IDS",
     "section": "",
-    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+    "text": "Elizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#our-mailing-lists",
-    "href": "index.html#our-mailing-lists",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "objectID": "people.html#ids-organizing-committee",
+    "href": "people.html#ids-organizing-committee",
+    "title": "People Associated with IDS",
     "section": "",
-    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!)"
+    "text": "Elizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "seminarseries.html",
-    "href": "seminarseries.html",
-    "title": "Interdisciplinary Data Science Seminar Series",
+    "objectID": "people.html#other-related-groups",
+    "href": "people.html#other-related-groups",
+    "title": "People Associated with IDS",
+    "section": "Other Related Groups",
+    "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
+  },
+  {
+    "objectID": "seminarentries/Current/2026-02-23-Elizabeth_Purdom/index.html",
+    "href": "seminarentries/Current/2026-02-23-Elizabeth_Purdom/index.html",
+    "title": "Statistical questions arising from single-cell sequencing data",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
-  },
-  {
-    "objectID": "seminarseries.html#about",
-    "href": "seminarseries.html#about",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact:\nYou can see all past seminars here"
-  },
-  {
-    "objectID": "seminarseries.html#upcoming-events",
-    "href": "seminarseries.html#upcoming-events",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nMaryam Hoseinni\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "seminarseries.html#other-related-seminars-of-interest",
-    "href": "seminarseries.html#other-related-seminars-of-interest",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "Other Related Seminars of Interest",
-    "text": "Other Related Seminars of Interest\nThe following seminar series held at UC Berkeley are likely to be of interest to the IDS community\n\nBerkeley AI Risk: Talks by experts from academia, civil society, and industry on AI risks and mitigations\nBIDMaP. See also their emerging scholars series of research from post-docs and graduate students.\nComputational Biology\nComputational Precision Health"
-  },
-  {
-    "objectID": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
-    "href": "seminarentries/Current/2026-02-16-Maryam_Hoseinni/index.html",
-    "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
-    "section": "",
-    "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
+    "text": "Abstract: mRNA sequencing of single cells is an extremely common biological technology that allows researchers to query what genes are active in a single cell. This allows for many detailed biological queries that were not possible previously. In this talk we will introduce for a general audience the data that is being produced and discuss the types of data challenges that are present in this data by going through some examples of our work in this area. Then we will discuss in detail a specific example of our work for scRNA-Seq studies that measure individual single-cells but across a population cohort – in particular to emphasize the impact of single-cell variation on human health outcomes. In such studies, it is essential that researchers perform bioinformatic tasks at the sample-level (rather than the cell-level) to appropriately capture population variability. We will discuss our framework for representing the entire single-cell profile of a sample, which we call a GloScope representation, which is particularly useful for the areas of visualization and quality control assessment.\n\n\n\n\nElizabeth Purdom"
   },
   {
     "objectID": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
