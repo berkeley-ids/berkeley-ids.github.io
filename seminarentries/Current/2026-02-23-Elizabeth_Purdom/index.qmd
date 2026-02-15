@@ -1,1 +1,21 @@
+---
+title: "Statistical questions arising from single-cell sequencing data "
+author: 
+  - name: Elizabeth Purdom
+    affiliation: Department of Statisics and Center for Computational Biology
+date: '2026-02-23'
+image: elizabeth.JPG
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
 
+::::: columns
+::: {.column width="60%"}
+Abstract: mRNA sequencing of single cells is an extremely common biological technology that allows researchers to query what genes are active in a single cell. This allows for many detailed biological queries that were not possible previously. In this talk we will introduce for a general audience the data that is being produced and discuss the types of data challenges that are present in this data by going through some examples of our work in this area. Then we will discuss in detail a specific example of our work for scRNA-Seq studies that measure individual single-cells but across a population cohort – in particular to emphasize the impact of single-cell variation on human health outcomes.  In such studies, it is essential that researchers perform bioinformatic tasks at the sample-level (rather than the cell-level) to appropriately capture population variability. We will discuss our framework for representing the entire single-cell profile of a sample, which we call a GloScope representation, which is particularly useful for the areas of visualization and quality control assessment. 
+:::
+
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+
+:::::
