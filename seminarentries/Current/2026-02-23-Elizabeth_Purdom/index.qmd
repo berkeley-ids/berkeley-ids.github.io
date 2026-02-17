@@ -4,7 +4,7 @@ author:
   - name: Elizabeth Purdom
     affiliation: Department of Statisics and Center for Computational Biology
 date: '2026-02-23'
-image: elizabeth.JPG
+image: elizabeth.jpeg
 categories: "Spring 2026"
 css: /seminarentries/speakerpages.css
 ---
