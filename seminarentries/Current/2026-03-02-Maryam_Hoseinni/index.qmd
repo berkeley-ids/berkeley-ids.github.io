@@ -4,7 +4,7 @@ author:
   - name: Maryam Hoseinni
     affiliation: Department of City & Regional Planning
 date: '2026-03-02'
-image: maryam.JPG
+image: maryam.jpg
 categories: "Spring 2026"
 css: /seminarentries/speakerpages.css
 ---
