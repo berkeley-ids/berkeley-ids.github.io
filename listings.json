@@ -1,10 +1,7 @@
 [
   {
-    "listing": "/seminarentries/Past/index.html",
-    "items": [
-      "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-      "/seminarentries/Past/2026-02-09-Manxi_Wu/index.html"
-    ]
+    "listing": "/people.html",
+    "items": []
   },
   {
     "listing": "/seminarseries.html",
@@ -14,7 +11,10 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
+    "listing": "/seminarentries/Past/index.html",
+    "items": [
+      "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
+      "/seminarentries/Past/2026-02-09-Manxi_Wu/index.html"
+    ]
   }
 ]
