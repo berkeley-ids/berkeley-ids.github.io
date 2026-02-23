@@ -15,6 +15,13 @@ feed: true
 
 The IDSI seminar series for Spring 2026 is **Mondays from 11-12 AM in 775 A Tan Hall**
 
+::: {.callout-important}
+## **Room Change for February 23!**
+
+**The seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.** 
+:::
+
+
  [Join Google Groups Mailing List](https://groups.google.com/a/lists.berkeley.edu/d/forum/ids_mailing){.btn .btn-outline-primary .btn role="button"} <!--[Add to Calendar](addcalendar.qmd){.btn .btn-outline-primary .btn role="button"} -->
 
 If you have questions about the seminar or have difficulty signing up for the mailing list contact: [Raja Sengupta](mailto:rajasengupta@berkeley.edu)
