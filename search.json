@@ -21,11 +21,11 @@
     "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
   },
   {
-    "objectID": "seminarentries/Current/2026-02-23-Elizabeth_Purdom/index.html",
-    "href": "seminarentries/Current/2026-02-23-Elizabeth_Purdom/index.html",
-    "title": "Statistical questions arising from single-cell sequencing data",
+    "objectID": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
+    "href": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
+    "title": "Ever Since Allais and Ellsberg",
     "section": "",
-    "text": "ImportantRoom Change for February 23!\n\n\n\nThe seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.\n\n\n\n\nAbstract: mRNA sequencing of single cells is an extremely common biological technology that allows researchers to query what genes are active in a single cell. This allows for many detailed biological queries that were not possible previously. In this talk we will introduce for a general audience the data that is being produced and discuss the types of data challenges that are present in this data by going through some examples of our work in this area. Then we will discuss in detail a specific example of our work for scRNA-Seq studies that measure individual single-cells but across a population cohort – in particular to emphasize the impact of single-cell variation on human health outcomes. In such studies, it is essential that researchers perform bioinformatic tasks at the sample-level (rather than the cell-level) to appropriately capture population variability. We will discuss our framework for representing the entire single-cell profile of a sample, which we call a GloScope representation, which is particularly useful for the areas of visualization and quality control assessment.\n\n\n\n\nElizabeth Purdom"
+    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n\n\n\nShachar Kariv"
   },
   {
     "objectID": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
@@ -81,21 +81,21 @@
     "href": "seminarseries.html",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\n\n\nImportantRoom Change for February 23!\n\n\n\nThe seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
   },
   {
     "objectID": "seminarseries.html#about",
     "href": "seminarseries.html#about",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\n\n\nImportantRoom Change for February 23!\n\n\n\nThe seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
   },
   {
     "objectID": "seminarseries.html#upcoming-events",
     "href": "seminarseries.html#upcoming-events",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\n\n\n\n\n\nFeb 23, 2026\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nMaryam Hoseinni\n\n\n\n\n\nNo matching items"
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nMaryam Hoseinni\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "seminarseries.html#other-related-seminars-of-interest",
@@ -109,14 +109,14 @@
     "href": "seminarentries/Past/index.html",
     "title": "Past Seminars",
     "section": "",
-    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\nFeb 23, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-    "href": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-    "title": "Ever Since Allais and Ellsberg",
+    "objectID": "seminarentries/Past/2026-02-23-Elizabeth_Purdom/index.html",
+    "href": "seminarentries/Past/2026-02-23-Elizabeth_Purdom/index.html",
+    "title": "Statistical questions arising from single-cell sequencing data",
     "section": "",
-    "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n\n\n\nShachar Kariv"
+    "text": "ImportantRoom Change for February 23!\n\n\n\nThe seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.\n\n\n\n\nAbstract: mRNA sequencing of single cells is an extremely common biological technology that allows researchers to query what genes are active in a single cell. This allows for many detailed biological queries that were not possible previously. In this talk we will introduce for a general audience the data that is being produced and discuss the types of data challenges that are present in this data by going through some examples of our work in this area. Then we will discuss in detail a specific example of our work for scRNA-Seq studies that measure individual single-cells but across a population cohort – in particular to emphasize the impact of single-cell variation on human health outcomes. In such studies, it is essential that researchers perform bioinformatic tasks at the sample-level (rather than the cell-level) to appropriately capture population variability. We will discuss our framework for representing the entire single-cell profile of a sample, which we call a GloScope representation, which is particularly useful for the areas of visualization and quality control assessment.\n\n\n\n\nElizabeth Purdom"
   },
   {
     "objectID": "seminarentries/Current/2026-03-02-Maryam_Hoseinni/index.html",
