@@ -1,1 +1,21 @@
+---
+title: ""
+author: 
+  - name: Maria Gutierrez Paz
+    affiliation: Department of Architecture
+date: '2026-04-27'
+image: paz.jpg
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
 
+::::: columns
+::: {.column width="60%"}
+Abstract: 
+:::
+
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+
+:::::
