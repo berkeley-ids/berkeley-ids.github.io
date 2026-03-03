@@ -1,1 +1,25 @@
+---
+title: "Causal AI for Clinical Care: Deep Causal Behavioral Policy Learning"
+author: 
+  - name: Maya Petersen
+    affiliation: School of Public Health & College of Computing Data Science and Society
+date: '2026-04-20'
+image: maya.jpg
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
 
+::::: columns
+::: {.column width="60%"}
+Abstract:  We present a deep learning-based approach to studying dynamic clinical behavioral policies across healthcare settings. Our proposed methodology - deep causal behavioral policy learning (DC-BPL) - uses deep learning algorithms to learn the distribution of high-dimensional clinical action paths and identify the causal link between these action paths and patient outcomes. Specifically, the DC-BPL methodology: (1) learns the distribution of clinical actions a given provider would take given evolving patient information; (2) identifies the causal effects of provider assignment on clinical outcomes; and (3) combines these steps to emulate the care decisions of high-quality clinicians. Our approach leverages recent advances in deep learning to model provider decision making in response to evolving clinical information as a sequence-to-sequence learning task. We call this model a large clinical behavior model (LCBM) which uses the same transformer architecture underpinning today’s foundation models such as ChatGPT-4/5 and Gemini 1.5. 
+
+We validate the DC-BPL methodology using Electronic Health Record (EHR) data on 3.9 million ED encounters for a common set of chief complaints (including chest pain, abdominal pain, and syncope, among others) from 2016-2025. First, we train an LCBM to model clinical decision-making in the ED given dynamic patient health states (as captured by vitals, lab results, imaging results, recorded conditions and procedures). Next, using quasi-random assignment of patients to providers, we identify the causal effects of providers on adverse patient outcomes including mortality, ICU transfers, and 30-day hospital readmissions. Finally, we fine-tune the LCBM to mimic the practice patterns of providers with causally improved outcomes. We use these results to identify critical clinical decision points associated with variation in patient outcomes, as well as the specific decisions that drive improved outcomes. 
+
+Behavioral policy learning using the LCBM can be interpreted as an efficient encoding of complex, often implicit, clinical knowledge used to treat a patient. This allows one to learn a space of policies in critical healthcare applications where the majority of clinical knowledge is acquired tacitly through years of practice and only a tiny fraction of information relevant to patient care is written down (e.g. in textbooks, studies or standardized guidelines). Our methodology supports a range of applications including causally rigorous quality measurement, provider coaching, and clinical decision support.
+:::
+
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+
+:::::
