@@ -1,1 +1,21 @@
+---
+title: ""
+author: 
+  - name: Perry de Valpine
+    affiliation: Department of Environmental Science, Policy & Management
+date: '2026-03-30'
+image: perry.jpg
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
 
+::::: columns
+::: {.column width="60%"}
+Abstract: 
+:::
+
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+
+:::::
