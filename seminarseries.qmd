@@ -28,6 +28,12 @@ If you have questions about the seminar or have difficulty signing up for the ma
 
 You can see all [past seminars here](seminarentries/Past/index.qmd)
 
+::: {.callout-important}
+## No Seminar Monday, March 9
+
+There will be no seminar Monday, March 9th.
+:::
+
 ## Upcoming Events
 
 ::: {#current}

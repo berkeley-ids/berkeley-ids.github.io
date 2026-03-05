@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "TBA"
 author: 
   - name: Zach Pardos
     affiliation: School of Education
@@ -11,7 +11,7 @@ css: /seminarentries/speakerpages.css
 
 ::::: columns
 ::: {.column width="60%"}
-Abstract: 
+Abstract: TBA
 :::
 
 ::: {.column width="40%"}
