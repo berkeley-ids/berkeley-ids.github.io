@@ -21,25 +21,39 @@
     "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\nFeb 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nMar 2, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "seminarentries/Current/2026-03-30-Perry_de_Valpine/index.html",
+    "href": "seminarentries/Current/2026-03-30-Perry_de_Valpine/index.html",
+    "title": "TBA",
+    "section": "",
+    "text": "Abstract: TBA\n\n\n\n\nPerry de Valpine"
+  },
+  {
+    "objectID": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
+    "href": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
+    "title": "Causal AI for Clinical Care: Deep Causal Behavioral Policy Learning",
+    "section": "",
+    "text": "Abstract: We present a deep learning-based approach to studying dynamic clinical behavioral policies across healthcare settings. Our proposed methodology - deep causal behavioral policy learning (DC-BPL) - uses deep learning algorithms to learn the distribution of high-dimensional clinical action paths and identify the causal link between these action paths and patient outcomes. Specifically, the DC-BPL methodology: (1) learns the distribution of clinical actions a given provider would take given evolving patient information; (2) identifies the causal effects of provider assignment on clinical outcomes; and (3) combines these steps to emulate the care decisions of high-quality clinicians. Our approach leverages recent advances in deep learning to model provider decision making in response to evolving clinical information as a sequence-to-sequence learning task. We call this model a large clinical behavior model (LCBM) which uses the same transformer architecture underpinning today’s foundation models such as ChatGPT-4/5 and Gemini 1.5.\nWe validate the DC-BPL methodology using Electronic Health Record (EHR) data on 3.9 million ED encounters for a common set of chief complaints (including chest pain, abdominal pain, and syncope, among others) from 2016-2025. First, we train an LCBM to model clinical decision-making in the ED given dynamic patient health states (as captured by vitals, lab results, imaging results, recorded conditions and procedures). Next, using quasi-random assignment of patients to providers, we identify the causal effects of providers on adverse patient outcomes including mortality, ICU transfers, and 30-day hospital readmissions. Finally, we fine-tune the LCBM to mimic the practice patterns of providers with causally improved outcomes. We use these results to identify critical clinical decision points associated with variation in patient outcomes, as well as the specific decisions that drive improved outcomes.\nBehavioral policy learning using the LCBM can be interpreted as an efficient encoding of complex, often implicit, clinical knowledge used to treat a patient. This allows one to learn a space of policies in critical healthcare applications where the majority of clinical knowledge is acquired tacitly through years of practice and only a tiny fraction of information relevant to patient care is written down (e.g. in textbooks, studies or standardized guidelines). Our methodology supports a range of applications including causally rigorous quality measurement, provider coaching, and clinical decision support.\n\n\n\n\nMaya Petersen"
+  },
+  {
     "objectID": "seminarseries.html",
     "href": "seminarseries.html",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here\n\n\n\n\n\n\nImportantNo Seminar Monday, March 9\n\n\n\nThere will be no seminar Monday, March 9th."
   },
   {
     "objectID": "seminarseries.html#about",
     "href": "seminarseries.html#about",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here\n\n\n\n\n\n\nImportantNo Seminar Monday, March 9\n\n\n\nThere will be no seminar Monday, March 9th."
   },
   {
     "objectID": "seminarseries.html#upcoming-events",
     "href": "seminarseries.html#upcoming-events",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\nNo matching items"
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "seminarseries.html#other-related-seminars-of-interest",
@@ -110,6 +124,20 @@
     "title": "People Associated with IDS",
     "section": "Other Related Groups",
     "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
+  },
+  {
+    "objectID": "seminarentries/Current/2026-04-27-Maria_Gutierrez_Paz/index.html",
+    "href": "seminarentries/Current/2026-04-27-Maria_Gutierrez_Paz/index.html",
+    "title": "TBA",
+    "section": "",
+    "text": "Abstract: TBA\n\n\n\n\nMaria Gutierrez Paz"
+  },
+  {
+    "objectID": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
+    "href": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
+    "title": "TBA",
+    "section": "",
+    "text": "Abstract: TBA\n\n\n\n\nZach Pardos"
   },
   {
     "objectID": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
