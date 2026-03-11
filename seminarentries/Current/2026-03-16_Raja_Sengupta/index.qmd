@@ -1,0 +1,19 @@
+---
+title: "Advanced Air Mobility: Tools for System Analysis and Design"
+author: 
+  - name: Raja Sengupta
+    affiliation: Aerospace Engineering & Civil Environmental Engineering
+date: '2026-03-02'
+image: raja.jpg
+categories: "Spring 2026"
+css: /seminarentries/speakerpages.css
+---
+
+::::: columns
+::: {.column width="60%"}
+Abstract: We present a tool suite for AAM systems analysis and design developed by the Aviation Innovation Research (AIR) Lab at UC Berkeley. The tool suite includes stochastic demand estimation for the UAM airport use case, vertiport performance estimation and sizing by solution of the balance equations for a Blocking-Before-Service network, fleet sizing by approximate solution of an EVRP-with-Time-Windows problem, and Reinforcement Learning (actor-critic ppo) for fleet management and control. The tools are supported by the lab's VERTISIM and LPSIM simulators. VERTISIM is the lab's simulator for UAM network operations. LPSIM is a multi-GPU platform multimodal regional transportation network simulator that is able to simulate a region like the San Francisco Bay Area, i.e., 20  million trips and 24 hours in 20 minutes and 16 dollars. We use these tools to show that UAM for transportation to LAX is a highly viable market and that the regional airports in the Bay Area could offer significant value to the regional transportation system if the aerospace industry is able to innovate the right aircraft.
+::: {.column width="40%"}
+![{{< meta author >}}]({{< meta image >}})
+:::
+
+:::::
