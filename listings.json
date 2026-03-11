@@ -1,12 +1,7 @@
 [
   {
-    "listing": "/seminarentries/Past/index.html",
-    "items": [
-      "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
-      "/seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
-      "/seminarentries/Past/2026-02-23-Elizabeth_Purdom/index.html",
-      "/seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html"
-    ]
+    "listing": "/people.html",
+    "items": []
   },
   {
     "listing": "/seminarseries.html",
@@ -18,7 +13,13 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
+    "listing": "/seminarentries/Past/index.html",
+    "items": [
+      "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
+      "/seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
+      "/seminarentries/Past/2026-02-23-Elizabeth_Purdom/index.html",
+      "/seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html",
+      "/seminarentries/Past/2026-03-16_Raja_Sengupta/index.html"
+    ]
   }
 ]
