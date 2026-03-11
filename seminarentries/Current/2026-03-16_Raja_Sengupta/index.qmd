@@ -3,7 +3,7 @@ title: "Advanced Air Mobility: Tools for System Analysis and Design"
 author: 
   - name: Raja Sengupta
     affiliation: Civil Environmental Engineering & Aerospace Engineering
-date: '2026-03-02'
+date: '2026-03-16'
 image: raja.jpg
 categories: "Spring 2026"
 css: /seminarentries/speakerpages.css
