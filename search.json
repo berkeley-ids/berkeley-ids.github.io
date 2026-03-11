@@ -116,7 +116,7 @@
     "href": "seminarseries.html#upcoming-events",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nAdvanced Air Mobility: Tools for System Analysis and Design\n\n\n\n\n\n\n\n\nMar 16, 2026\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nAdvanced Air Mobility: Tools for System Analysis and Design\n\n\n\n\n\n\n\n\nMar 16, 2026\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\nComputational statistical ecology: From MCMC to mountain lions\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "seminarseries.html#other-related-seminars-of-interest",
@@ -135,9 +135,9 @@
   {
     "objectID": "seminarentries/Current/2026-03-30-Perry_de_Valpine/index.html",
     "href": "seminarentries/Current/2026-03-30-Perry_de_Valpine/index.html",
-    "title": "TBA",
+    "title": "Computational statistical ecology: From MCMC to mountain lions",
     "section": "",
-    "text": "Abstract: TBA\n\n\n\n\nPerry de Valpine"
+    "text": "Abstract: This talk will have three parts. First, I will give an overview of some statistical modeling problems from (mostly population and community) ecology. These include estimating the distribution, structure, abundance, and demography or dynamics of animal and plant populations from data such as marked individuals, camera traps, acoustic monitors, scat, telemetry, and genetics. Examples range from soil microbiomes to agricultural insect communities to mountain lions. Next, I will give an overview of the NIMBLE (R package nimble) framework for hierarchical statistical modeling. NIMBLE is distinct in providing both a general language for statistical models and a model-generic algorithm language, both of which are automatically code-generated from R to C++ and compiled for the user. NIMBLE provides a very flexible MCMC system, deterministic approximations such as Laplace and adaptive Gauss-Hermite quadrature, sequential Monte Carlo and hybrid methods such as particle MCMC, Hamiltonian Monte Carlo, and more. It has been used in around 650 peer-reviewed publications in many fields, for example archaeology, epidemiology, and sports statistics. Last, I will show how NIMBLE has been used for (what we believe to be) the largest spatial capture-recapture (SCR) analysis ever, estimating populations of three large carnivores in Scandinavia, and more recently estimating mountain lion populations in California. For Bayesian SCR estimation with MCMC, NIMBLE’s flexibility and extensibility has supported roughly 25-100x efficiency gains for various SCR problems.\n\n\n\n\nPerry de Valpine"
   },
   {
     "objectID": "seminarentries/Current/2026-03-16-Raja_Sengupta/index.html",
