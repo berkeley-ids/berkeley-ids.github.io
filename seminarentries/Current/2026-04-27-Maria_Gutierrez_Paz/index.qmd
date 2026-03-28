@@ -1,5 +1,5 @@
 ---
-title: "TBA"
+title: "Buildings and Greywater Reuse Viability"
 author: 
   - name: Maria Gutierrez Paz
     affiliation: Department of Architecture
@@ -11,7 +11,7 @@ css: /seminarentries/speakerpages.css
 
 ::::: columns
 ::: {.column width="60%"}
-Abstract: TBA
+Abstract: Ensuring water security is a critical national and global issue, particularly in urban areas where water scarcity threatens human health and community resilience. Addressing the challenges of water reuse through innovation in greywater treatment and decentralized systems in buildings is vital to mitigating this crisis. The treatment and reuse of greywater in buildings involves complex physical, technological, environmental, and social dimensions. Therefore, the design and development of new greywater onsite treatment technologies should not be treated as fixed but rather as adaptable systems. To accomplish this capacity, establishing robust metrics of the behavioral and cultural dimensions of greywater recycling and reuse remains critical for feasibility and adoption viability. At present, we lack effective tools to model the behavior of greywater reuse systems due to their high-dimensional interactions. This presentation will discuss new models at the intersection of intricate behavioral metrics and characterization metrics addressing building code compliance, construction façade technologies, regulatory monitoring, and their role in fostering end-user trust.
 :::
 
 ::: {.column width="40%"}
