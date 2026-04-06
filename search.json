@@ -116,7 +116,7 @@
     "href": "seminarseries.html#upcoming-events",
     "title": "Interdisciplinary Data Science Seminar Series",
     "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nBuildings and Greywater Reuse Viability\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nModeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility\n\n\n\n\n\n\n\n\nApr 6, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nBuildings and Greywater Reuse Viability\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "seminarseries.html#other-related-seminars-of-interest",
@@ -156,8 +156,8 @@
   {
     "objectID": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
     "href": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
-    "title": "TBA",
+    "title": "Modeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility",
     "section": "",
-    "text": "Abstract: TBA\n\n\n\n\nZach Pardos"
+    "text": "Abstract: This presentation explores the prospect of conceptualizing college degree progress as a continuous framework of fine-grained mastery learning for transfers and others taking non-normative paths through higher education. First, I will discuss empirical studies demonstrating the efficacy of Large Language Models (LLMs) in generating psychometrically sound questions and pedagogically effective hints within Intelligent Tutoring Systems, building upon the open-source Open Adaptive tutor project being piloted at Cal. Second, I will extend this micro-level learning framework to macro-level institutional progress by examining stakeholder-informed AI methodologies for course articulation. Specifically, I will detail a supervised alignment method implemented within the SUNY system that mitigates institutional catalog biases, achieving a 5.5-fold improvement in accuracy and significantly expanding credit mobility. By leveraging representational learning techniques that can map learning objectives across contexts, the presentation will end with a questioning of how more flexible pathways can be constructed while retaining the value of a full-package University experience.\n\n\n\n\nZach Pardos"
   }
 ]
