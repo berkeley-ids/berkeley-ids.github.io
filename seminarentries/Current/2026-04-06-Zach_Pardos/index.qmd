@@ -3,7 +3,7 @@ title: "Modeling Degree Progress as Fine-Grained Mastery Learning: Applications 
 author: 
   - name: Zach Pardos
     affiliation: School of Education
-date: '2026-04-06'
+date: '2026-04-13'
 image: zach.jpg
 categories: "Spring 2026"
 css: /seminarentries/speakerpages.css
