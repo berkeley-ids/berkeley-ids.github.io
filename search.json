@@ -1,5 +1,103 @@
 [
   {
+    "objectID": "seminarentries/Past/2026-03-16-Raja_Sengupta/index.html",
+    "href": "seminarentries/Past/2026-03-16-Raja_Sengupta/index.html",
+    "title": "Advanced Air Mobility: Tools for System Analysis and Design",
+    "section": "",
+    "text": "Abstract: We present a tool suite for AAM systems analysis and design developed by the Aviation Innovation Research (AIR) Lab at UC Berkeley. The tool suite includes stochastic demand estimation for the UAM airport use case, vertiport performance estimation and sizing by solution of the balance equations for a Blocking-Before-Service network, fleet sizing by approximate solution of an EVRP-with-Time-Windows problem, and Reinforcement Learning (actor-critic ppo) for fleet management and control. The tools are supported by the lab’s VERTISIM and LPSIM simulators. VERTISIM is the lab’s simulator for UAM network operations. LPSIM is a multi-GPU platform multimodal regional transportation network simulator that is able to simulate a region like the San Francisco Bay Area, i.e., 20 million trips and 24 hours in 20 minutes and 16 dollars. We use these tools to show that UAM for transportation to LAX is a highly viable market and that the regional airports in the Bay Area could offer significant value to the regional transportation system if the aerospace industry is able to innovate the right aircraft. ::: {.column width=“40%”}"
+  },
+  {
+    "objectID": "seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html",
+    "href": "seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html",
+    "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
+    "section": "",
+    "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
+  },
+  {
+    "objectID": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
+    "href": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
+    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
+    "section": "",
+    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n\n\n\nManxi Wu"
+  },
+  {
+    "objectID": "seminarentries/Past/2026-03-30-Perry_de_Valpine/index.html",
+    "href": "seminarentries/Past/2026-03-30-Perry_de_Valpine/index.html",
+    "title": "Computational statistical ecology: From MCMC to mountain lions",
+    "section": "",
+    "text": "Abstract: This talk will have three parts. First, I will give an overview of some statistical modeling problems from (mostly population and community) ecology. These include estimating the distribution, structure, abundance, and demography or dynamics of animal and plant populations from data such as marked individuals, camera traps, acoustic monitors, scat, telemetry, and genetics. Examples range from soil microbiomes to agricultural insect communities to mountain lions. Next, I will give an overview of the NIMBLE (R package nimble) framework for hierarchical statistical modeling. NIMBLE is distinct in providing both a general language for statistical models and a model-generic algorithm language, both of which are automatically code-generated from R to C++ and compiled for the user. NIMBLE provides a very flexible MCMC system, deterministic approximations such as Laplace and adaptive Gauss-Hermite quadrature, sequential Monte Carlo and hybrid methods such as particle MCMC, Hamiltonian Monte Carlo, and more. It has been used in around 650 peer-reviewed publications in many fields, for example archaeology, epidemiology, and sports statistics. Last, I will show how NIMBLE has been used for (what we believe to be) the largest spatial capture-recapture (SCR) analysis ever, estimating populations of three large carnivores in Scandinavia, and more recently estimating mountain lion populations in California. For Bayesian SCR estimation with MCMC, NIMBLE’s flexibility and extensibility has supported roughly 25-100x efficiency gains for various SCR problems.\n\n\n\n\nPerry de Valpine"
+  },
+  {
+    "objectID": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
+    "href": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
+    "title": "Causal AI for Clinical Care: Deep Causal Behavioral Policy Learning",
+    "section": "",
+    "text": "Abstract: We present a deep learning-based approach to studying dynamic clinical behavioral policies across healthcare settings. Our proposed methodology - deep causal behavioral policy learning (DC-BPL) - uses deep learning algorithms to learn the distribution of high-dimensional clinical action paths and identify the causal link between these action paths and patient outcomes. Specifically, the DC-BPL methodology: (1) learns the distribution of clinical actions a given provider would take given evolving patient information; (2) identifies the causal effects of provider assignment on clinical outcomes; and (3) combines these steps to emulate the care decisions of high-quality clinicians. Our approach leverages recent advances in deep learning to model provider decision making in response to evolving clinical information as a sequence-to-sequence learning task. We call this model a large clinical behavior model (LCBM) which uses the same transformer architecture underpinning today’s foundation models such as ChatGPT-4/5 and Gemini 1.5.\nWe validate the DC-BPL methodology using Electronic Health Record (EHR) data on 3.9 million ED encounters for a common set of chief complaints (including chest pain, abdominal pain, and syncope, among others) from 2016-2025. First, we train an LCBM to model clinical decision-making in the ED given dynamic patient health states (as captured by vitals, lab results, imaging results, recorded conditions and procedures). Next, using quasi-random assignment of patients to providers, we identify the causal effects of providers on adverse patient outcomes including mortality, ICU transfers, and 30-day hospital readmissions. Finally, we fine-tune the LCBM to mimic the practice patterns of providers with causally improved outcomes. We use these results to identify critical clinical decision points associated with variation in patient outcomes, as well as the specific decisions that drive improved outcomes.\nBehavioral policy learning using the LCBM can be interpreted as an efficient encoding of complex, often implicit, clinical knowledge used to treat a patient. This allows one to learn a space of policies in critical healthcare applications where the majority of clinical knowledge is acquired tacitly through years of practice and only a tiny fraction of information relevant to patient care is written down (e.g. in textbooks, studies or standardized guidelines). Our methodology supports a range of applications including causally rigorous quality measurement, provider coaching, and clinical decision support.\n\n\n\n\nMaya Petersen"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group (ids_students) to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group linked here to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!). If the link does not work, you can also search for ids_mailing in UC Berkeley’s google groups, and add yourself."
+  },
+  {
+    "objectID": "index.html#our-mailing-lists",
+    "href": "index.html#our-mailing-lists",
+    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
+    "section": "",
+    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group (ids_students) to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group linked here to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!). If the link does not work, you can also search for ids_mailing in UC Berkeley’s google groups, and add yourself."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People Associated with IDS",
+    "section": "",
+    "text": "Carl Boettiger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristian Borgs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFederico Echenique\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHenry Brady\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Bloom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSusan Graham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZachary Pardos\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#ids-organizing-committee",
+    "href": "people.html#ids-organizing-committee",
+    "title": "People Associated with IDS",
+    "section": "",
+    "text": "Carl Boettiger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristian Borgs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFederico Echenique\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHenry Brady\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Bloom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSusan Graham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZachary Pardos\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#other-related-groups",
+    "href": "people.html#other-related-groups",
+    "title": "People Associated with IDS",
+    "section": "Other Related Groups",
+    "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
+  },
+  {
+    "objectID": "seminarseries.html",
+    "href": "seminarseries.html",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "",
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+  },
+  {
+    "objectID": "seminarseries.html#about",
+    "href": "seminarseries.html#about",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "",
+    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
+  },
+  {
+    "objectID": "seminarseries.html#upcoming-events",
+    "href": "seminarseries.html#upcoming-events",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nModeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility\n\n\n\n\n\n\n\n\nApr 13, 2026\n\n\nZach Pardos\n\n\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nBuildings and Greywater Reuse Viability\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "seminarseries.html#other-related-seminars-of-interest",
+    "href": "seminarseries.html#other-related-seminars-of-interest",
+    "title": "Interdisciplinary Data Science Seminar Series",
+    "section": "Other Related Seminars of Interest",
+    "text": "Other Related Seminars of Interest\nThe following seminar series held at UC Berkeley are likely to be of interest to the IDS community\n\nBerkeley AI Risk: Talks by experts from academia, civil society, and industry on AI risks and mitigations\nBIDMaP. See also their emerging scholars series of research from post-docs and graduate students.\nComputational Biology\nComputational Precision Health"
+  },
+  {
     "objectID": "Readme.html",
     "href": "Readme.html",
     "title": "General",
@@ -28,18 +126,18 @@
     "text": "About the folder of Past Speakers\nEvery time the website is compiled, there is an automatic filtering to move speakers from the Current folder to the Past folder, so no one should have to do this automatically. It is scheduled to recompile every Tuesday at midnight (in addition to any manual compilations someone might trigger, described above). If the seminar date changes, this might need to be fixed.\nSpeakers are automatically moved from the Current folder into the Past folder on compilation which means those changes won’t become part of the github code base. That means the Past folder on github could look empty or not up-to-date, but still render correctly. Seminar organizers can manually move the folders from past speakers into the Past directory just to clean things up, for example at the beginning of the new semesters, but it is not necessary and needs to be done carefully so nothing is deleted."
   },
   {
+    "objectID": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
+    "href": "seminarentries/Current/2026-04-06-Zach_Pardos/index.html",
+    "title": "Modeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility",
+    "section": "",
+    "text": "Abstract: This presentation explores the prospect of conceptualizing college degree progress as a continuous framework of fine-grained mastery learning for transfers and others taking non-normative paths through higher education. First, I will discuss empirical studies demonstrating the efficacy of Large Language Models (LLMs) in generating psychometrically sound questions and pedagogically effective hints within Intelligent Tutoring Systems, building upon the open-source Open Adaptive tutor project being piloted at Cal. Second, I will extend this micro-level learning framework to macro-level institutional progress by examining stakeholder-informed AI methodologies for course articulation. Specifically, I will detail a supervised alignment method implemented within the SUNY system that mitigates institutional catalog biases, achieving a 5.5-fold improvement in accuracy and significantly expanding credit mobility. By leveraging representational learning techniques that can map learning objectives across contexts, the presentation will end with a questioning of how more flexible pathways can be constructed while retaining the value of a full-package University experience.\n\n\n\n\nZach Pardos"
+  },
+  {
     "objectID": "seminarentries/Current/2026-04-27-Maria_Gutierrez_Paz/index.html",
     "href": "seminarentries/Current/2026-04-27-Maria_Gutierrez_Paz/index.html",
     "title": "Buildings and Greywater Reuse Viability",
     "section": "",
     "text": "Abstract: Ensuring water security is a critical national and global issue, particularly in urban areas where water scarcity threatens human health and community resilience. Addressing the challenges of water reuse through innovation in greywater treatment and decentralized systems in buildings is vital to mitigating this crisis. The treatment and reuse of greywater in buildings involves complex physical, technological, environmental, and social dimensions. Therefore, the design and development of new greywater onsite treatment technologies should not be treated as fixed but rather as adaptable systems. To accomplish this capacity, establishing robust metrics of the behavioral and cultural dimensions of greywater recycling and reuse remains critical for feasibility and adoption viability. At present, we lack effective tools to model the behavior of greywater reuse systems due to their high-dimensional interactions. This presentation will discuss new models at the intersection of intricate behavioral metrics and characterization metrics addressing building code compliance, construction façade technologies, regulatory monitoring, and their role in fostering end-user trust.\n\n\n\n\nMaria Gutierrez Paz"
-  },
-  {
-    "objectID": "seminarentries/Past/2026-04-06-Zach_Pardos/index.html",
-    "href": "seminarentries/Past/2026-04-06-Zach_Pardos/index.html",
-    "title": "Modeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility",
-    "section": "",
-    "text": "Abstract: This presentation explores the prospect of conceptualizing college degree progress as a continuous framework of fine-grained mastery learning for transfers and others taking non-normative paths through higher education. First, I will discuss empirical studies demonstrating the efficacy of Large Language Models (LLMs) in generating psychometrically sound questions and pedagogically effective hints within Intelligent Tutoring Systems, building upon the open-source Open Adaptive tutor project being piloted at Cal. Second, I will extend this micro-level learning framework to macro-level institutional progress by examining stakeholder-informed AI methodologies for course articulation. Specifically, I will detail a supervised alignment method implemented within the SUNY system that mitigates institutional catalog biases, achieving a 5.5-fold improvement in accuracy and significantly expanding credit mobility. By leveraging representational learning techniques that can map learning objectives across contexts, the presentation will end with a questioning of how more flexible pathways can be constructed while retaining the value of a full-package University experience.\n\n\n\n\nZach Pardos"
   },
   {
     "objectID": "seminarentries/Past/2026-02-23-Elizabeth_Purdom/index.html",
@@ -49,104 +147,6 @@
     "text": "ImportantRoom Change for February 23!\n\n\n\nThe seminar on Monday February 23 will be in 100F Hildebrand Hall, in the chemistry library.\n\n\n\n\nAbstract: mRNA sequencing of single cells is an extremely common biological technology that allows researchers to query what genes are active in a single cell. This allows for many detailed biological queries that were not possible previously. In this talk we will introduce for a general audience the data that is being produced and discuss the types of data challenges that are present in this data by going through some examples of our work in this area. Then we will discuss in detail a specific example of our work for scRNA-Seq studies that measure individual single-cells but across a population cohort – in particular to emphasize the impact of single-cell variation on human health outcomes. In such studies, it is essential that researchers perform bioinformatic tasks at the sample-level (rather than the cell-level) to appropriately capture population variability. We will discuss our framework for representing the entire single-cell profile of a sample, which we call a GloScope representation, which is particularly useful for the areas of visualization and quality control assessment.\n\n\n\n\nElizabeth Purdom"
   },
   {
-    "objectID": "seminarentries/Past/2026-03-30-Perry_de_Valpine/index.html",
-    "href": "seminarentries/Past/2026-03-30-Perry_de_Valpine/index.html",
-    "title": "Computational statistical ecology: From MCMC to mountain lions",
-    "section": "",
-    "text": "Abstract: This talk will have three parts. First, I will give an overview of some statistical modeling problems from (mostly population and community) ecology. These include estimating the distribution, structure, abundance, and demography or dynamics of animal and plant populations from data such as marked individuals, camera traps, acoustic monitors, scat, telemetry, and genetics. Examples range from soil microbiomes to agricultural insect communities to mountain lions. Next, I will give an overview of the NIMBLE (R package nimble) framework for hierarchical statistical modeling. NIMBLE is distinct in providing both a general language for statistical models and a model-generic algorithm language, both of which are automatically code-generated from R to C++ and compiled for the user. NIMBLE provides a very flexible MCMC system, deterministic approximations such as Laplace and adaptive Gauss-Hermite quadrature, sequential Monte Carlo and hybrid methods such as particle MCMC, Hamiltonian Monte Carlo, and more. It has been used in around 650 peer-reviewed publications in many fields, for example archaeology, epidemiology, and sports statistics. Last, I will show how NIMBLE has been used for (what we believe to be) the largest spatial capture-recapture (SCR) analysis ever, estimating populations of three large carnivores in Scandinavia, and more recently estimating mountain lion populations in California. For Bayesian SCR estimation with MCMC, NIMBLE’s flexibility and extensibility has supported roughly 25-100x efficiency gains for various SCR problems.\n\n\n\n\nPerry de Valpine"
-  },
-  {
-    "objectID": "seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html",
-    "href": "seminarentries/Past/2026-03-02-Maryam_Hoseinni/index.html",
-    "title": "Cities, Unmapped: Bridging Informational Gap in Urban Analytics",
-    "section": "",
-    "text": "Abstract: Much of urban life remains unmapped, limiting our ability to plan at the human scale. My research tackles this gap by designing open-source tools and frameworks that combine computer vision, machine learning, and computational geometry to extract critical urban features from imagery and open data. Moving beyond static maps of where infrastructure exists, my work decodes how streets function and evolve over time. This spans from visual analytics systems that 3D reconstruct and analyze crossing patterns at intersections using video data, to a change retrieval framework that fuses aerial imagery, street geometry, and design records into a unified temporal model. In this talk, I’ll share how these tools can enable a more complete, analyzable, and actionable view of cities: one grounded in how people actually move through and experience urban space.\n\n\n\n\nMaryam Hoseinni"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People Associated with IDS",
-    "section": "",
-    "text": "Carl Boettiger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristian Borgs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFederico Echenique\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHenry Brady\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Bloom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSusan Graham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZachary Pardos\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#ids-organizing-committee",
-    "href": "people.html#ids-organizing-committee",
-    "title": "People Associated with IDS",
-    "section": "",
-    "text": "Carl Boettiger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristian Borgs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFederico Echenique\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHenry Brady\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Bloom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerry de Valpine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaja Sengupta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRon Cohen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSusan Graham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZachary Pardos\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#other-related-groups",
-    "href": "people.html#other-related-groups",
-    "title": "People Associated with IDS",
-    "section": "Other Related Groups",
-    "text": "Other Related Groups\nThe following are other related Berkeley organizations, in which many of our faculty participate\n\nBakar Institute of Digital Materials for the Planet (BIDMaP)\nBerkeley Artificial Intelligence Research (BAIR)\nBerkeley Institute for Data Science (BIDS)\nCenter for Computational Biology (CCB)\nCenter for the Theoretical Foundations of Learning, Inference, Information, Intelligence, Mathematics and Microeconomics at Berkeley (CLIMB)\nComputational Precision Health\nSchmidt Center for Data Science and Environment (DSE)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
-    "section": "",
-    "text": "We are a group of faculty interested in strengthening the community of interdisciplinary data science researchers at UC Berkeley. Our faculty use the revolutionary changes in data collection, methods, and the emergence of new phenomena, to advance natural and social science disciplines in ways that lead to new areas of scholarship. Our unifying mission is to leverage data to address pressing questions with social and scientific impact.\n\n\nWe have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group (ids_students) to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group linked here to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!). If the link does not work, you can also search for ids_mailing in UC Berkeley’s google groups, and add yourself."
-  },
-  {
-    "objectID": "index.html#our-mailing-lists",
-    "href": "index.html#our-mailing-lists",
-    "title": "Interdisciplinary Data Science (IDS) at UC Berkeley",
-    "section": "",
-    "text": "We have the following Google Group mailing lists for communicating events and activities:\n\nStudents and Post-docs – students and post-docs are welcome to add themselves to this google group (ids_students) to learn about student events\nIDS Faculty – faculty who are members of the IDS faculty group\nAffiliated Faculty – related UC Berkeley faculty who wish to contribute to building the IDS community\nGeneral mailing list – general purpose mailing list open to the UC Berkeley community. Join by adding yourself to the google group linked here to receive announcements of seminars and other events (groups listed above are automatically part of this mailing list!). If the link does not work, you can also search for ids_mailing in UC Berkeley’s google groups, and add yourself."
-  },
-  {
-    "objectID": "seminarseries.html",
-    "href": "seminarseries.html",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
-  },
-  {
-    "objectID": "seminarseries.html#about",
-    "href": "seminarseries.html#about",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "",
-    "text": "The IDSI seminar series for Spring 2026 is Mondays from 11-12 AM in 775 A Tan Hall\n\n\n\n\nJoin Google Groups Mailing List \nIf you have questions about the seminar or have difficulty signing up for the mailing list contact: Raja Sengupta\nYou can see all past seminars here"
-  },
-  {
-    "objectID": "seminarseries.html#upcoming-events",
-    "href": "seminarseries.html#upcoming-events",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "Upcoming Events",
-    "text": "Upcoming Events\n\n\n\n\n\n\n\n\n\n\nCausal AI for Clinical Care: Deep Causal Behavioral Policy Learning\n\n\n\n\n\n\n\n\nApr 20, 2026\n\n\nMaya Petersen\n\n\n\n\n\n\n\n\n\n\n\n\nBuildings and Greywater Reuse Viability\n\n\n\n\n\n\n\n\nApr 27, 2026\n\n\nMaria Gutierrez Paz\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "seminarseries.html#other-related-seminars-of-interest",
-    "href": "seminarseries.html#other-related-seminars-of-interest",
-    "title": "Interdisciplinary Data Science Seminar Series",
-    "section": "Other Related Seminars of Interest",
-    "text": "Other Related Seminars of Interest\nThe following seminar series held at UC Berkeley are likely to be of interest to the IDS community\n\nBerkeley AI Risk: Talks by experts from academia, civil society, and industry on AI risks and mitigations\nBIDMaP. See also their emerging scholars series of research from post-docs and graduate students.\nComputational Biology\nComputational Precision Health"
-  },
-  {
-    "objectID": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
-    "href": "seminarentries/Past/2026-02-09-Manxi_Wu/index.html",
-    "title": "Information Design and Learning-Based Control for Large-Scale Mobility Systems.",
-    "section": "",
-    "text": "Abstract: Modern mobility systems face persistent spatial supply-demand imbalances that affect the system efficiency and welfare. For human-driven platforms, the challenge lies in managing strategic agent behavior; for autonomous fleets, the bottleneck is the computational scalability of large-scale fleet control. This seminar presents two frameworks—grounded in information design and deep reinforcement learning—that address spatial resource allocation in these distinct paradigms.\nFirst, we examine strategic information design in networks where agents strategically reposition to maximize their payoffs in face of demand shocks. Modeling this as a network game, we characterize optimal information disclosure mechanisms and establish that, in many practical settings, simple “monotone partitional” mechanisms are optimal for maximizing platform revenue and minimizing system costs. Second, we address the operational control of large-scale electric robo-taxi fleets, spanning ride matching, repositioning, and charging. To overcome the curse of dimensionality, we introduce Atomic Proximal Policy Optimization (Atomic-PPO), which decomposes the fleet dispatching problem into constant-dimension sequential assignments. We prove this decomposition is without loss of optimality for a wide variety of stochastic network control problems.\nFinally, we validate both frameworks using real-world data from the New York City for-hire vehicle market. Our findings illustrate how strategic signaling with scalable control policies significantly enhances the efficiency and sustainability of urban mobility systems.\n\n\n\n\nManxi Wu"
-  },
-  {
-    "objectID": "seminarentries/Past/index.html",
-    "href": "seminarentries/Past/index.html",
-    "title": "Past Seminars",
-    "section": "",
-    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\nFeb 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Air Mobility: Tools for System Analysis and Design\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nRaja Sengupta\n\n\nMar 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputational statistical ecology: From MCMC to mountain lions\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nPerry de Valpine\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nModeling Degree Progress as Fine-Grained Mastery Learning: Applications of Generative AI in Adaptive Tutoring and Credit Mobility\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nZach Pardos\n\n\nApr 6, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "seminarentries/Past/2026-03-16-Raja_Sengupta/index.html",
-    "href": "seminarentries/Past/2026-03-16-Raja_Sengupta/index.html",
-    "title": "Advanced Air Mobility: Tools for System Analysis and Design",
-    "section": "",
-    "text": "Abstract: We present a tool suite for AAM systems analysis and design developed by the Aviation Innovation Research (AIR) Lab at UC Berkeley. The tool suite includes stochastic demand estimation for the UAM airport use case, vertiport performance estimation and sizing by solution of the balance equations for a Blocking-Before-Service network, fleet sizing by approximate solution of an EVRP-with-Time-Windows problem, and Reinforcement Learning (actor-critic ppo) for fleet management and control. The tools are supported by the lab’s VERTISIM and LPSIM simulators. VERTISIM is the lab’s simulator for UAM network operations. LPSIM is a multi-GPU platform multimodal regional transportation network simulator that is able to simulate a region like the San Francisco Bay Area, i.e., 20 million trips and 24 hours in 20 minutes and 16 dollars. We use these tools to show that UAM for transportation to LAX is a highly viable market and that the regional airports in the Bay Area could offer significant value to the regional transportation system if the aerospace industry is able to innovate the right aircraft. ::: {.column width=“40%”}"
-  },
-  {
     "objectID": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
     "href": "seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
     "title": "Ever Since Allais and Ellsberg",
@@ -154,10 +154,10 @@
     "text": "Abstract: The Allais critique of expected utility theory (EUT) has led to the development of theories of choice under risk that relax the independence axiom, but which adhere to the conventional axioms of ordering and monotonicity. Unlike many existing laboratory experiments designed to test independence, our experiment systematically tests the entire set of axioms, providing much richer evidence against which EUT can be judged. Our within-subjects analysis is nonparametric, using only information about revealed preference relations in the individual-level data. For most subjects, we find that departures from independence are statistically significant but minor relative to departures from ordering and/or monotonicity. We also extend the results in settings with risk (known probabilities) to settings with ambiguity (unknown probabilities) and also to time instead of risk tradeoffs.\n\n\n\n\nShachar Kariv"
   },
   {
-    "objectID": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
-    "href": "seminarentries/Current/2026-04-20-Maya_Petersen/index.html",
-    "title": "Causal AI for Clinical Care: Deep Causal Behavioral Policy Learning",
+    "objectID": "seminarentries/Past/index.html",
+    "href": "seminarentries/Past/index.html",
+    "title": "Past Seminars",
     "section": "",
-    "text": "Abstract: We present a deep learning-based approach to studying dynamic clinical behavioral policies across healthcare settings. Our proposed methodology - deep causal behavioral policy learning (DC-BPL) - uses deep learning algorithms to learn the distribution of high-dimensional clinical action paths and identify the causal link between these action paths and patient outcomes. Specifically, the DC-BPL methodology: (1) learns the distribution of clinical actions a given provider would take given evolving patient information; (2) identifies the causal effects of provider assignment on clinical outcomes; and (3) combines these steps to emulate the care decisions of high-quality clinicians. Our approach leverages recent advances in deep learning to model provider decision making in response to evolving clinical information as a sequence-to-sequence learning task. We call this model a large clinical behavior model (LCBM) which uses the same transformer architecture underpinning today’s foundation models such as ChatGPT-4/5 and Gemini 1.5.\nWe validate the DC-BPL methodology using Electronic Health Record (EHR) data on 3.9 million ED encounters for a common set of chief complaints (including chest pain, abdominal pain, and syncope, among others) from 2016-2025. First, we train an LCBM to model clinical decision-making in the ED given dynamic patient health states (as captured by vitals, lab results, imaging results, recorded conditions and procedures). Next, using quasi-random assignment of patients to providers, we identify the causal effects of providers on adverse patient outcomes including mortality, ICU transfers, and 30-day hospital readmissions. Finally, we fine-tune the LCBM to mimic the practice patterns of providers with causally improved outcomes. We use these results to identify critical clinical decision points associated with variation in patient outcomes, as well as the specific decisions that drive improved outcomes.\nBehavioral policy learning using the LCBM can be interpreted as an efficient encoding of complex, often implicit, clinical knowledge used to treat a patient. This allows one to learn a space of policies in critical healthcare applications where the majority of clinical knowledge is acquired tacitly through years of practice and only a tiny fraction of information relevant to patient care is written down (e.g. in textbooks, studies or standardized guidelines). Our methodology supports a range of applications including causally rigorous quality measurement, provider coaching, and clinical decision support.\n\n\n\n\nMaya Petersen"
+    "text": "Past Seminars\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEver Since Allais and Ellsberg\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nShachar Kariv\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Design and Learning-Based Control for Large-Scale Mobility Systems.\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nManxi Wu\n\n\nFeb 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical questions arising from single-cell sequencing data\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nElizabeth Purdom\n\n\nFeb 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCities, Unmapped: Bridging Informational Gap in Urban Analytics\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nMaryam Hoseinni\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Air Mobility: Tools for System Analysis and Design\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nRaja Sengupta\n\n\nMar 16, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputational statistical ecology: From MCMC to mountain lions\n\n\n\nSpring 2026\n\n\n\n\n\n\n\nPerry de Valpine\n\n\nMar 30, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
