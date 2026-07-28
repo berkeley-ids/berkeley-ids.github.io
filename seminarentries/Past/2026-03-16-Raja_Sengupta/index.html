@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-4f8e1d622352351c51e2dca5f86c0f58.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-2fd710e641f03868ac3473d911c1c3a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -164,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="columns">
 <div class="column" style="width:60%;">
-<p>Abstract: We present a tool suite for AAM systems analysis and design developed by the Aviation Innovation Research (AIR) Lab at UC Berkeley. The tool suite includes stochastic demand estimation for the UAM airport use case, vertiport performance estimation and sizing by solution of the balance equations for a Blocking-Before-Service network, fleet sizing by approximate solution of an EVRP-with-Time-Windows problem, and Reinforcement Learning (actor-critic ppo) for fleet management and control. The tools are supported by the lab’s VERTISIM and LPSIM simulators. VERTISIM is the lab’s simulator for UAM network operations. LPSIM is a multi-GPU platform multimodal regional transportation network simulator that is able to simulate a region like the San Francisco Bay Area, i.e., 20 million trips and 24 hours in 20 minutes and 16 dollars. We use these tools to show that UAM for transportation to LAX is a highly viable market and that the regional airports in the Bay Area could offer significant value to the regional transportation system if the aerospace industry is able to innovate the right aircraft. ::: {.column width=“40%”} <img src="raja.jpg.png" class="img-fluid" alt="Raja Sengupta"></p>
+<p>Abstract: We present a tool suite for AAM systems analysis and design developed by the Aviation Innovation Research (AIR) Lab at UC Berkeley. The tool suite includes stochastic demand estimation for the UAM airport use case, vertiport performance estimation and sizing by solution of the balance equations for a Blocking-Before-Service network, fleet sizing by approximate solution of an EVRP-with-Time-Windows problem, and Reinforcement Learning (actor-critic ppo) for fleet management and control. The tools are supported by the lab’s VERTISIM and LPSIM simulators. VERTISIM is the lab’s simulator for UAM network operations. LPSIM is a multi-GPU platform multimodal regional transportation network simulator that is able to simulate a region like the San Francisco Bay Area, i.e., 20 million trips and 24 hours in 20 minutes and 16 dollars. We use these tools to show that UAM for transportation to LAX is a highly viable market and that the regional airports in the Bay Area could offer significant value to the regional transportation system if the aerospace industry is able to innovate the right aircraft. ::: {.column width=“40%”} <img src="raja.jpg" class="img-fluid" alt="Raja Sengupta"></p>
 </div>
 </div>
 
