@@ -4,6 +4,10 @@
     "items": []
   },
   {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
     "listing": "/seminarentries/Past/index.html",
     "items": [
       "/seminarentries/Past/2026-02-02-Shachar_Kariv/index.html",
@@ -16,9 +20,5 @@
       "/seminarentries/Past/2026-04-20-Maya_Petersen/index.html",
       "/seminarentries/Past/2026-04-27-Maria_Gutierrez_Paz/index.html"
     ]
-  },
-  {
-    "listing": "/people.html",
-    "items": []
   }
 ]
