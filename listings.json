@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/seminarseries.html",
-    "items": []
-  },
-  {
     "listing": "/people.html",
     "items": []
   },
@@ -20,5 +16,9 @@
       "/seminarentries/Past/2026-04-20-Maya_Petersen/index.html",
       "/seminarentries/Past/2026-04-27-Maria_Gutierrez_Paz/index.html"
     ]
+  },
+  {
+    "listing": "/seminarseries.html",
+    "items": []
   }
 ]
